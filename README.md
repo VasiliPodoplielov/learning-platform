@@ -1,3 +1,5 @@
+The GitHub page is created from `dev` branch. Link: https://vasilipodoplielov.github.io/learning-platform/
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
