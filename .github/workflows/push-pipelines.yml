@@ -1,6 +1,9 @@
-name: push-workflow
-
-on: push
+name: DevOps-Push-All-branches
+on:
+  push:
+    branches-ignore:
+      - dev
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
