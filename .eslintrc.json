@@ -1,0 +1,74 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/typescript",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "react-hooks",
+    "unused-imports",
+    "simple-import-sort",
+    "prefer-arrow",
+    "import-quotes"
+  ],
+  "globals": {
+    "module": false
+  },
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "warn",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_",
+        "caughtErrorsIgnorePattern": "^_"
+      }
+    ],
+    "arrow-body-style": ["error", "as-needed"],
+    "prefer-arrow/prefer-arrow-functions": [
+      "warn",
+      {
+        "disallowPrototype": true,
+        "singleReturnOnly": false,
+        "classPropertiesAllowed": false
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/prop-types": "off",
+    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": "error",
+    "unused-imports/no-unused-imports": "error",
+    "unused-imports/no-unused-vars": "warn",
+    "comma-dangle": ["error", "always-multiline"],
+    "semi": "error",
+    "keyword-spacing": [
+      "error",
+      {
+        "after": true,
+        "before": true
+      }
+    ],
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "react/display-name": "off",
+    "import-quotes/import-quotes": [1, "single"],
+    "object-curly-spacing": ["error", "always"]
+  }
+}
