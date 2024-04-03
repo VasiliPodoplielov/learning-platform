@@ -4,6 +4,13 @@ import { Button } from 'primereact/button';
 import { Menubar } from 'primereact/menubar';
 import { MenuItem } from 'primereact/menuitem';
 
+interface MenuItem {
+    label: string;
+    icon: string;
+    badge?: string;
+    shortcut?: string;
+}
+
 export default function TemplateDemo() {
     const itemRenderer = (item: MenuItem) => (
         <a href="#/" className="flex align-items-center p-menuitem-link">
