@@ -1,8 +1,9 @@
-import { useState } from 'react'
-import './App.css'
+import './App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
+import { useState } from 'react';
+
+export const App = () => {
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -16,7 +17,5 @@ function App() {
         </p>
       </div>
     </>
-  )
-}
-
-export default App
+  );
+};
