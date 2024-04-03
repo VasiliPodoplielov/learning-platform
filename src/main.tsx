@@ -1,3 +1,7 @@
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+import 'primeflex/primeflex.css';
+import 'primereact/resources/themes/vela-orange/theme.css';
 import './index.css';
 
 import React from 'react';

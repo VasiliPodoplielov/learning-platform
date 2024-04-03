@@ -1,5 +1,6 @@
 import './App.css';
 
+import { Button } from 'primereact/button';
 import { useState } from 'react';
 
 export const App = () => {
@@ -8,7 +9,7 @@ export const App = () => {
   return (
     <>
       <h1>Vite + React</h1>
-      <div>
+      <div className="flex">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -16,6 +17,7 @@ export const App = () => {
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
       </div>
+      <Button label="Test button" />
     </>
   );
 };
