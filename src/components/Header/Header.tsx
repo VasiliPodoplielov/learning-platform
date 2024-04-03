@@ -5,7 +5,7 @@ import { Menubar } from 'primereact/menubar';
 import { MenuItem } from 'primereact/menuitem';
 
 export default function TemplateDemo() {
-    const itemRenderer = (item) => (
+    const itemRenderer = (item: MenuItem) => (
         <a href="#/" className="flex align-items-center p-menuitem-link">
             <span className={item.icon} />
             <span className="mx-2">{item.label}</span>
