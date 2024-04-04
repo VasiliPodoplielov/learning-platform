@@ -4,6 +4,7 @@ import { Menubar } from 'primereact/menubar';
 import { menuItems } from './constants';
 
 export const Header = () => {
+
     const logo = (
         <img 
             alt="logo" 
@@ -13,15 +14,16 @@ export const Header = () => {
         />
     );
     const headerActions = (
-        <div className="flex align-items-center gap-2">
-            <Button className="mr-5" label="Пробний урок" />
+        <div className="flex justify-content-end gap-2">
+            <Button label="Пробний урок" />
             <Button label="Мова" />
         </div>
     );
 
     return (
-        <div className="card">
-            <Menubar model={menuItems} start={logo} end={headerActions} />
+        <div className='header'>
+            <Menubar className='text-xl'  model={menuItems} start={logo} end={headerActions} />
         </div>
     );
 };
+
