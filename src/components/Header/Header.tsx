@@ -1,17 +1,16 @@
-import React from 'react'; 
+import { Button } from 'primereact/button'; 
 import { Menubar } from 'primereact/menubar';
 import { MenuItem } from 'primereact/menuitem';
-import { Button } from 'primereact/button'; 
 
 export default function BasicDemo() {
     const items: MenuItem[] = [
         {
             label: 'Головна',
-            icon: 'pi pi-home'
+            icon: 'pi pi-home',
         },
         {
             label: 'Відгуки',
-            icon: 'pi pi-star'
+            icon: 'pi pi-star',
         },
         {
             label: 'Вчителі',
@@ -19,7 +18,7 @@ export default function BasicDemo() {
         },
         {
             label: 'Контакти',
-            icon: 'pi pi-envelope'
+            icon: 'pi pi-envelope',
         },
         {
             label: 'Переклад',
@@ -39,6 +38,6 @@ export default function BasicDemo() {
         <div className="card">
             <Menubar model={items} start={start} end={end}/>
         </div>
-    )
+    );
 }
    
