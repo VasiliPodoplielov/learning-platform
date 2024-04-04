@@ -1,33 +1,12 @@
 import { Button } from 'primereact/button'; 
 import { Menubar } from 'primereact/menubar';
 import { MenuItem } from 'primereact/menuitem';
+import { menuItems } from './constants'
 
-export default function BasicDemo() {
-    const items: MenuItem[] = [
-        {
-            label: 'Головна',
-            icon: 'pi pi-home',
-        },
-        {
-            label: 'Відгуки',
-            icon: 'pi pi-star',
-        },
-        {
-            label: 'Вчителі',
-            icon: 'pi pi-users',
-        },
-        {
-            label: 'Контакти',
-            icon: 'pi pi-envelope',
-        },
-        {
-            label: 'Переклад',
-            icon: 'pi pi-receipt',
-        },
-    ];
-
-    const start = <img alt="logo" src="https://primefaces.org/cdn/primereact/images/logo.png" height="40" className="mr-5"></img>;
-        const end = (
+export const Header = () => {
+    const items: MenuItem[] = menuItems;
+    const logo = <img alt="logo" src="https://primefaces.org/cdn/primereact/images/logo.png" height="40" className="mr-5"></img>;
+        const headerActions = (
             <div className="flex align-items-center gap-2">
                 <Button className="mr-5" label="Пробний урок" />
                 <Button label="Мова" />
@@ -36,7 +15,7 @@ export default function BasicDemo() {
     
     return (
         <div className="card">
-            <Menubar model={items} start={start} end={end}/>
+            <Menubar model={items} start={logo} end={headerActions}/>
         </div>
     );
 }
