@@ -4,7 +4,6 @@ import { Menubar } from 'primereact/menubar';
 import { menuItems } from './constants';
 
 export const Header = () => {
-    const items = menuItems;
     const logo = (
         <img 
             alt="logo" 
@@ -22,7 +21,7 @@ export const Header = () => {
 
     return (
         <div className="card">
-            <Menubar model={items} start={logo} end={headerActions} />
+            <Menubar model={menuItems} start={logo} end={headerActions} />
         </div>
     );
 };
