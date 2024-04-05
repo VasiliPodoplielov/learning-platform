@@ -21,9 +21,7 @@ export const Header = () => {
     );
 
     return (
-        <>
             <Menubar className='text-xl'  model={menuItems} start={logo} end={headerActions} />
-        </>
     );
 };
 
