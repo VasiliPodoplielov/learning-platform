@@ -21,9 +21,9 @@ export const Header = () => {
     );
 
     return (
-        <div className='header'>
+        <>
             <Menubar className='text-xl'  model={menuItems} start={logo} end={headerActions} />
-        </div>
+        </>
     );
 };
 
