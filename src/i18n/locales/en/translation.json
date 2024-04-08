@@ -1,0 +1,14 @@
+{
+  "header": {
+    "menu": {
+      "home": "Home",
+      "reviews": "Reviews",
+      "teachers": "Teachers",
+      "contacts": "Contacts",
+      "translations": "Translations"
+    }
+  },
+  "buttons": {
+    "trialClass": "Trial class"
+  }
+}

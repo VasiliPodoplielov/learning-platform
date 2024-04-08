@@ -1,0 +1,14 @@
+{
+  "header": {
+    "menu": {
+      "home": "Головна",
+      "reviews": "Відгуки",
+      "teachers": "Викладачі",
+      "contacts": "Контакти",
+      "translations": "Переклад"
+    }
+  },
+  "buttons": {
+    "trialClass": "Пробне заняття"
+  }
+}
