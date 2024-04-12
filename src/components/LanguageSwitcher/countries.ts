@@ -1,0 +1,1 @@
+export const countries = ['UA', 'PL', 'DE', 'EN'];

@@ -1,0 +1,14 @@
+{
+  "header": {
+    "menu": {
+      "home": "Główna",
+      "reviews": "Opinie",
+      "teachers": "Nauczyciele",
+      "contacts": "Kontakt",
+      "translations": "Tłumaczenia"
+    }
+  },
+  "buttons": {
+    "trialClass": "Zajęcia próbne"
+  }
+}
