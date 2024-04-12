@@ -1,0 +1,5 @@
+.bgHeaderCard {
+    height: 70vh;
+    background: url("/src/assets/images/info.jpg") 0 0 / cover no-repeat;
+  }
+  
