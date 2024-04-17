@@ -3,7 +3,7 @@ import { Menubar } from 'primereact/menubar';
 import { useTranslation } from 'react-i18next';
 
 import { LanguageSwitcher } from '../LanguageSwitcher';
-import { getMenuItems } from './constants';
+import { GET_MENU_ITEMS } from './constants';
 
 export const Header = () => {
   const { t } = useTranslation();
@@ -27,7 +27,7 @@ export const Header = () => {
     <div className="header">
       <Menubar
         className="text-xl"
-        model={getMenuItems(t)}
+        model={GET_MENU_ITEMS(t)}
         start={logo}
         end={headerActions}
       />
