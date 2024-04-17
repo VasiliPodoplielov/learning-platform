@@ -25,7 +25,12 @@ export const Header = () => {
 
   return (
     <div className="header">
-      <Menubar className="text-xl" model={getMenuItems(t)} start={logo} end={headerActions} />
+      <Menubar
+        className="text-xl"
+        model={getMenuItems(t)}
+        start={logo}
+        end={headerActions}
+      />
     </div>
   );
 };

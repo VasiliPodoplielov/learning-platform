@@ -3,8 +3,8 @@ import './flag.css';
 import { Dropdown, DropdownChangeEvent } from 'primereact/dropdown';
 import { useTranslation } from 'react-i18next';
 
-import { countries } from './countries.ts';
-import { countryOptionTemplate } from './Template';
+import { Countries } from './constants.ts';
+import { countryOptionTemplate } from './template.tsx';
 
 export const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
@@ -17,7 +17,7 @@ export const LanguageSwitcher = () => {
     <div className="card flex justify-content-center">
       <Dropdown
         value={i18n.language.toUpperCase()}
-        options={countries}
+        options={Countries}
         onChange={handleCountryChange}
         optionLabel="name"
         valueTemplate={countryOptionTemplate}
