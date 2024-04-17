@@ -1,4 +1,5 @@
 import { FLAG_PLACEHOLDER_URL } from './constants.ts';
+
 export const countryOptionTemplate = (country: string) => (
   <div className="flex align-items-center">
     <img
