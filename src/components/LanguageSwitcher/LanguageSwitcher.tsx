@@ -19,7 +19,6 @@ export const LanguageSwitcher = () => {
         value={i18n.language.toUpperCase()}
         options={COUNTRIES}
         onChange={handleCountryChange}
-        optionLabel="name"
         valueTemplate={countryOptionTemplate}
         itemTemplate={countryOptionTemplate}
         className="w-full md:w-6rem"
