@@ -1,4 +1,4 @@
-export const getMenuItems = (getTranslation: (key: string) => string) => ([
+export const getMenuItems = (getTranslation: (key: string) => string) => [
   {
     label: getTranslation('header.menu.home'),
     icon: 'pi pi-home',
@@ -19,4 +19,4 @@ export const getMenuItems = (getTranslation: (key: string) => string) => ([
     label: getTranslation('header.menu.translations'),
     icon: 'pi pi-receipt',
   },
-]);
+];

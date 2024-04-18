@@ -2,7 +2,8 @@ import { Button } from 'primereact/button';
 import { Menubar } from 'primereact/menubar';
 import { useTranslation } from 'react-i18next';
 
-import { getMenuItems } from './constants';
+import { LanguageSwitcher } from '../LanguageSwitcher';
+import { getMenuItems } from './dataHelpers';
 
 export const Header = () => {
   const { t } = useTranslation();
@@ -18,13 +19,13 @@ export const Header = () => {
   const headerActions = (
     <div className="flex justify-content-end gap-2">
       <Button label={t('buttons.trialClass')} />
-      <Button label="Мова"/>
+      <LanguageSwitcher />
     </div>
   );
 
   return (
     <div className="header">
-      <Menubar className="text-xl" model={getMenuItems(t)} start={logo} end={headerActions}/>
+      <Menubar className="text-xl" model={getMenuItems(t)} start={logo} end={headerActions} />
     </div>
   );
 };
