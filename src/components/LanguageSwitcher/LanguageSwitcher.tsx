@@ -4,7 +4,7 @@ import { Dropdown, DropdownChangeEvent } from 'primereact/dropdown';
 import { useTranslation } from 'react-i18next';
 
 import { COUNTRIES } from './constants.ts';
-import { countryOptionTemplate } from './Template.tsx';
+import { countryOptionTemplate } from './dataHelpers.tsx';
 
 export const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
