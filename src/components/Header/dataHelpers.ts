@@ -1,4 +1,4 @@
-export const GET_MENU_ITEMS = (getTranslation: (key: string) => string) => [
+export const getMenuItems = (getTranslation: (key: string) => string) => [
   {
     label: getTranslation('header.menu.home'),
     icon: 'pi pi-home',
