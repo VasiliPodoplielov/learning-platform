@@ -10,9 +10,9 @@
   },
   "buttons": {
     "trialClass": "Пробне заняття",
-    "SignUpClass": "Записатися"
+    "signUpClass": "Записатися"
   },
-  "SiteInfoSection": {
+  "siteInfoSection": {
     "textSignUp": "Запишись до наc та почни навчатися вже сьогодні",
     "tittleInfo": "Мовна школа STUDYONUA",
     "subTitleInfo": "Ми маємо сертифікат, що підтверджує впровадження та використання системи управління якістю, що відповідає вимогам Знака якості TGLS Quality Alliance.",

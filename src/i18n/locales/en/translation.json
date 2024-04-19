@@ -10,9 +10,9 @@
   },
   "buttons": {
     "trialClass": "Trial class",
-    "SignUpClass": "Sign up"
+    "signUpClass": "Sign up"
   },
-  "SiteInfoSection": {
+  "siteInfoSection": {
     "textSignUp": "Sign up and start studying today",
     "tittleInfo": "Language school STUDYONUA",
     "subTitleInfo": "We have a certificate confirming the implementation and use of a quality management system consistent with the requirements of the TGLS Quality Alliance Quality Mark.",

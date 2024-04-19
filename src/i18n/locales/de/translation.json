@@ -10,9 +10,9 @@
   },
   "buttons": {
     "trialClass": "Probestunde",
-    "SignUpClass": "Aufzeichnen"
+    "signUpClass": "Aufzeichnen"
   },
-  "SiteInfoSection": {
+  "siteInfoSection": {
     "textSignUp": "Melden Sie sich bei uns an und beginnen Sie noch heute mit dem Lernen",
     "tittleInfo": "Sprachschule STUDYONUA",
     "subTitleInfo": "Wir verfügen über ein Zertifikat, das die Implementierung und Anwendung eines Qualitätsmanagementsystems bestätigt, das den Anforderungen des TGLS Quality Alliance-Qualitätszeichens entspricht.",

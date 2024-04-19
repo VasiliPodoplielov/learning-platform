@@ -10,19 +10,19 @@ export const SiteInfo = () => {
   const header = (
     <div className={styles.bgHeaderCard}>
       <div className="flex flex-column align-items-end pt-8 pr-5">
-        <p className="text-100 text-2xl">{t('SiteInfoSection.textSignUp')}</p>
-        <Button label={t('buttons.SignUpClass')} />
+        <p className="text-100 text-2xl">{t('siteInfoSection.textSignUp')}</p>
+        <Button label={t('buttons.signUpClass')} />
       </div>
     </div>
   );
 
   return (
     <Card
-      title={t('SiteInfoSection.tittleInfo')}
-      subTitle={t('SiteInfoSection.subTitleInfo')}
+      title={t('siteInfoSection.tittleInfo')}
+      subTitle={t('siteInfoSection.subTitleInfo')}
       header={header}
     >
-      <p className="m-0">{t('SiteInfoSection.textInfo')}</p>
+      <p className="m-0">{t('siteInfoSection.textInfo')}</p>
     </Card>
   );
 };
