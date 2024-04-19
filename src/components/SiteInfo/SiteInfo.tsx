@@ -18,7 +18,7 @@ export const SiteInfo = () => {
 
   return (
     <Card
-      title={t('siteInfoSection.tittleInfo')}
+      title={t('siteInfoSection.titleInfo')}
       subTitle={t('siteInfoSection.subTitleInfo')}
       header={header}
     >
