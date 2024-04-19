@@ -1,9 +1,13 @@
 import { Button } from 'primereact/button';
 import { Menubar } from 'primereact/menubar';
+import { useTranslation } from 'react-i18next';
 
-import { menuItems } from './constants';
+import { LanguageSwitcher } from '../LanguageSwitcher';
+import { getMenuItems } from './dataHelpers';
 
 export const Header = () => {
+  const { t } = useTranslation();
+
   const logo = (
     <img
       alt="logo"
@@ -14,10 +18,14 @@ export const Header = () => {
   );
   const headerActions = (
     <div className="flex justify-content-end gap-2">
-      <Button label="Пробний урок" />
-      <Button label="Мова" />
+      <Button label={t('buttons.trialClass')} />
+      <LanguageSwitcher />
     </div>
   );
 
-  return <Menubar className="text-xl" model={menuItems} start={logo} end={headerActions} />;
+  return (
+    <div className="header">
+      <Menubar className="text-xl" model={getMenuItems(t)} start={logo} end={headerActions} />
+    </div>
+  );
 };
