@@ -1,9 +1,19 @@
+import { Button } from 'primereact/button';
+import { Card } from 'primereact/card';
 import { useTranslation } from 'react-i18next';
 
-import { Card } from 'primereact/card';
-import { Button } from 'primereact/button';
+interface Teacher {
+  id: string;
+  image: {
+    url: string;
+    altText: string;
+  };
+  name: string;
+  language: string;
+  cv: string;
+}
 
-export const TeacherCard = ({ teacher }: any) => {
+export const TeacherCard = ({ teacher }: { teacher: Teacher }) => {
   const { t } = useTranslation();
 
   const header = <img src={teacher.image.url} alt={teacher.image.altText} />;
