@@ -1,4 +1,4 @@
-export const teachersData = (getTranslation: (key: string) => string) => [
+export const getTeachers = (getTranslation: (key: string) => string) => [
   {
     id: '1',
     image: {

@@ -2,7 +2,7 @@ import { Carousel } from 'primereact/carousel';
 import { useTranslation } from 'react-i18next';
 
 import { responsiveOptions } from './carouselResponsiveOptions';
-import { teachersData } from './dataTeachers';
+import { getTeachers } from './dataTeachers';
 import { TeacherCard } from './TeacherCard';
 
 export const Teachers = () => {
@@ -11,7 +11,7 @@ export const Teachers = () => {
     <div className="card bg-primary pt-5">
       <h2 className="text-6xl text-center">{t('teachersSection.titleSection')}</h2>
       <Carousel
-        value={teachersData(t)}
+        value={getTeachers(t)}
         numVisible={5}
         numScroll={5}
         circular={true}
