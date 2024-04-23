@@ -18,15 +18,15 @@
     "subTitleInfo": "Posiadamy certyfikat, który świadczy o wdrożeniu i stosowaniu systemu zarządzania jakością zgodnego z wymaganiami Znaku Jakości TGLS Quality Alliance.",
     "textInfo": "Oferujemy kursy stacjonarne lub zdalne w czasie rzeczywistym ( online ) na wszystkich poziomach zaawansowania; kursy ogólnej znajomości języka dla młodzieży i dorosłych oraz kursy biznesowe i branżowe. Ponadto przygotowujemy do certyfikatów międzynarodowych i egzaminów szkół publicznych. Prowadzimy zajęcia w małych, kameralnych grupach 2, 3-5 osobowych lub indywidualnie. Dostosowujemy się do potrzeb klienta, stąd możliwość nauki w tygodniu i na weekend."
   },
-  "TeachersSection": {
+  "teachersSection": {
     "titleSection": "Nasi nauczyciele",
     "teacherLara": {
       "language": "Angielski",
-      "cv": "Cześć! Mam na imię Lara i pochodzę z Sydney w Australii. Moją pasją jest podróżowanie po świecie i poznawanie nowych kultur. Lubię grać w piłkę nożną i spędzać czas z przyjaciółmi i rodziną."
+      "introduction": "Cześć! Mam na imię Lara i pochodzę z Sydney w Australii. Moją pasją jest podróżowanie po świecie i poznawanie nowych kultur. Lubię grać w piłkę nożną i spędzać czas z przyjaciółmi i rodziną."
     },
     "teacherJoseph": {
       "language": "Angielski",
-      "cv": "Witam, mam na imię Józef i poszukuję korepetycji z języka angielskiego. Pochodzę z Wielkiej Brytanii i mieszkałem także w Australii. Moją pasją jest muzyka, podróże, fotografia, czytanie i ochrona środowiska."
+      "introduction": "Witam, mam na imię Józef i poszukuję korepetycji z języka angielskiego. Pochodzę z Wielkiej Brytanii i mieszkałem także w Australii. Moją pasją jest muzyka, podróże, fotografia, czytanie i ochrona środowiska."
     }
   }
 }
