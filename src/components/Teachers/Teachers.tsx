@@ -2,7 +2,7 @@ import { Carousel } from 'primereact/carousel';
 import { useTranslation } from 'react-i18next';
 
 import { RESPONSIVE_OPTIONS } from './constants';
-import { getTeachers } from './getTeachers';
+import { getTeachers } from './dataHelpers';
 import { TeacherCard } from './TeacherCard';
 
 export const Teachers = () => {
