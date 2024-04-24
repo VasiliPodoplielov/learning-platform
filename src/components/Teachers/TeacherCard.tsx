@@ -4,20 +4,25 @@ import { useTranslation } from 'react-i18next';
 
 import { Teacher } from './types';
 
-export const TeacherCard = ({ teacher }: { teacher: Teacher }) => {
+interface Props {
+  teacher: Teacher;
+}
+
+export const TeacherCard = ({ teacher }: Props) => {
   const { t } = useTranslation();
-  const { url: imageUrl } = teacher.image;
+  const { image, name, language, introduction } = teacher;
+  const { url: imageUrl } = image;
   const imageAltText = 'Teacher image';
 
   return (
     <Card
-      title={teacher.name}
-      subTitle={teacher.language}
+      title={name}
+      subTitle={language}
       footer={<Button label={t('buttons.trialClass')} />}
       header={<img src={imageUrl} alt={imageAltText} />}
       className="md:w-25rem"
     >
-      <p className="m-0">{teacher.introduction}</p>
+      <p className="m-0">{introduction}</p>
     </Card>
   );
 };

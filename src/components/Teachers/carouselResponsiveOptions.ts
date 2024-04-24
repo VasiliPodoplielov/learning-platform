@@ -1,4 +1,4 @@
-export const responsiveOptions = [
+export const RESPONSIVE_OPTIONS = [
   {
     breakpoint: '2200px',
     numVisible: 4,

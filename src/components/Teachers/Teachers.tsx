@@ -1,7 +1,7 @@
 import { Carousel } from 'primereact/carousel';
 import { useTranslation } from 'react-i18next';
 
-import { responsiveOptions } from './carouselResponsiveOptions';
+import { RESPONSIVE_OPTIONS } from './carouselResponsiveOptions';
 import { getTeachers } from './dataTeachers';
 import { TeacherCard } from './TeacherCard';
 
@@ -15,7 +15,7 @@ export const Teachers = () => {
         numVisible={5}
         numScroll={5}
         circular={true}
-        responsiveOptions={responsiveOptions}
+        responsiveOptions={RESPONSIVE_OPTIONS}
         itemTemplate={(teacher) => <TeacherCard key={teacher.id} teacher={teacher} />}
       />
     </div>
