@@ -10,16 +10,14 @@ interface Props {
 
 export const TeacherCard = ({ teacher }: Props) => {
   const { t } = useTranslation();
-  const { image, name, language, introduction } = teacher;
-  const { url: imageUrl } = image;
-  const imageAltText = 'Teacher image';
+  const { imageUrl, name, language, introduction } = teacher;
 
   return (
     <Card
       title={name}
       subTitle={language}
       footer={<Button label={t('buttons.trialClass')} />}
-      header={<img src={imageUrl} alt={imageAltText} />}
+      header={<img src={imageUrl} alt={'Teacher'} />}
       className="md:w-25rem"
     >
       <p className="m-0">{introduction}</p>

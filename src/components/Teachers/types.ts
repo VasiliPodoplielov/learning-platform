@@ -1,8 +1,6 @@
 export interface Teacher {
   id: string;
-  image: {
-    url: string;
-  };
+  imageUrl: string;
   name: string;
   language: string;
   introduction: string;
