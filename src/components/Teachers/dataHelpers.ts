@@ -1,0 +1,58 @@
+export const getTeachers = (getTranslation: (key: string) => string) => [
+  {
+    id: '1',
+    imageUrl: './src/assets/images/teachers/user-female.png',
+    name: 'Lara',
+    language: getTranslation('teachersSection.teacherLara.language'),
+    introduction: getTranslation('teachersSection.teacherLara.introduction'),
+  },
+  {
+    id: '2',
+    imageUrl: './src/assets/images/teachers/user-man.png',
+    name: 'Joseph',
+    language: getTranslation('teachersSection.teacherJoseph.language'),
+    introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
+  },
+  {
+    id: '3',
+    imageUrl: './src/assets/images/teachers/user-female.png',
+    name: 'Lara',
+    language: getTranslation('teachersSection.teacherLara.language'),
+    introduction: getTranslation('teachersSection.teacherLara.introduction'),
+  },
+  {
+    id: '4',
+    imageUrl: './src/assets/images/teachers/user-man.png',
+    name: 'Joseph',
+    language: getTranslation('teachersSection.teacherJoseph.language'),
+    introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
+  },
+  {
+    id: '5',
+    imageUrl: './src/assets/images/teachers/user-female.png',
+    name: 'Lara',
+    language: getTranslation('teachersSection.teacherLara.language'),
+    introduction: getTranslation('teachersSection.teacherLara.introduction'),
+  },
+  {
+    id: '6',
+    imageUrl: './src/assets/images/teachers/user-man.png',
+    name: 'Joseph',
+    language: getTranslation('teachersSection.teacherJoseph.language'),
+    introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
+  },
+  {
+    id: '7',
+    imageUrl: './src/assets/images/teachers/user-female.png',
+    name: 'Lara',
+    language: getTranslation('teachersSection.teacherLara.language'),
+    introduction: getTranslation('teachersSection.teacherLara.introduction'),
+  },
+  {
+    id: '8',
+    imageUrl: './src/assets/images/teachers/user-man.png',
+    name: 'Joseph',
+    language: getTranslation('teachersSection.teacherJoseph.language'),
+    introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
+  },
+];

@@ -17,5 +17,16 @@
     "titleInfo": "Language school STUDYONUA",
     "subTittleInfo": "We have a certificate confirming the implementation and use of a quality management system consistent with the requirements of the TGLS Quality Alliance Quality Mark.",
     "textInfo": "Offer of stationary or distance courses in time (online) at all available on the Internet; general language courses for teenagers and adults, as well as business and industry courses. We allow you to obtain international certificates and public examinations. We conduct classes in small, intimate groups of 2, 3-5 people or sick people. We adapt to the client's needs, hence the possibility of studying during the weekend."
+  },
+  "teachersSection": {
+    "titleSection": "Our teachers",
+    "teacherLara": {
+      "language": "English",
+      "introduction": "Hi! My name is Lara and I am from Sydney, Australia. My passion is traveling around the world and getting to know new cultures. I like playing football and spending time with friends and family."
+    },
+    "teacherJoseph": {
+      "language": "English",
+      "introduction": "Hello, my name is Józef and I am looking for English tutoring. I'm from the UK and have also lived in Australia. My passion is music, traveling, photography, reading and environmental protection."
+    }
   }
 }

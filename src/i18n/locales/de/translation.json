@@ -17,5 +17,16 @@
     "titleInfo": "Sprachschule STUDYONUA",
     "subTitleInfo": "Wir verfügen über ein Zertifikat, das die Implementierung und Anwendung eines Qualitätsmanagementsystems bestätigt, das den Anforderungen des TGLS Quality Alliance-Qualitätszeichens entspricht.",
     "textInfo": "Angebot von stationären oder Fernkursen zeitlich (online) überhaupt im Internet verfügbar; Allgemeinsprachkurse für Jugendliche und Erwachsene sowie Wirtschafts- und Industriekurse. Wir ermöglichen Ihnen den Erwerb internationaler Zertifikate und öffentlicher Prüfungen. Wir führen den Unterricht in kleinen, intimen Gruppen von 2, 3-5 Personen oder kranken Menschen durch. Wir passen uns den Bedürfnissen des Kunden an, daher besteht die Möglichkeit, am Wochenende zu lernen."
+  },
+  "teachersSection": {
+    "titleSection": "Unsere Lehrer",
+    "teacherLara": {
+      "language": "Englisch",
+      "introduction": "Hallo! Mein Name ist Lara und ich komme aus Sydney, Australien. Meine Leidenschaft ist das Reisen um die Welt und das Kennenlernen neuer Kulturen. Ich spiele gerne Fußball und verbringe gerne Zeit mit Freunden und Familie."
+    },
+    "teacherJoseph": {
+      "language": "Englisch",
+      "introduction": "Hallo, mein Name ist Józef und ich suche Nachhilfe für Englisch. Ich komme aus Großbritannien und habe auch in Australien gelebt. Meine Leidenschaft ist Musik, Reisen, Fotografie, Lesen und Umweltschutz."
+    }
   }
 }
