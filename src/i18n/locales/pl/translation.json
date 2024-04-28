@@ -28,5 +28,24 @@
       "language": "Angielski",
       "introduction": "Witam, mam na imię Józef i poszukuję korepetycji z języka angielskiego. Pochodzę z Wielkiej Brytanii i mieszkałem także w Australii. Moją pasją jest muzyka, podróże, fotografia, czytanie i ochrona środowiska."
     }
+  },
+  "answersSection": {
+    "titleAnswerSection": "Odpowiedzi na popularne pytania",
+    "answerOne": {
+      "headerAnswer": "Jak przebiega szkolenie?",
+      "textAnswers": "Nasze lekcje języka angielskiego online odbywają się na interaktywnej platformie JustSchool. Tutaj możesz komunikować się z nauczycielem w czasie rzeczywistym i wykonywać ciekawe interaktywne zadania."
+    },
+    "answerTwo": {
+      "headerAnswer": "Co obejmuje kurs?",
+      "textAnswers": "Nasz kurs obejmuje lekcje wideo, zadania praktyczne, testy i możliwość otrzymania informacji zwrotnej od nauczycieli."
+    },
+    "answerThree": {
+      "headerAnswer": "Jakie podejścia stosuje się w szkoleniach?",
+      "textAnswers": "Stosujemy różnorodne metody i podejścia, takie jak metoda komunikacyjna, techniki gier i indywidualne podejście do każdego ucznia."
+    },
+    "answerFour": {
+      "headerAnswer": "Jakie są zalety nauczania na odległość?",
+      "textAnswers": "Nauka zdalna daje możliwość wygodnej nauki z dowolnego miejsca i we własnym tempie, przy efektywnym wykorzystaniu czasu."
+    }
   }
 }

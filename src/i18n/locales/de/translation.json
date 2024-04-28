@@ -28,5 +28,24 @@
       "language": "Englisch",
       "introduction": "Hallo, mein Name ist Józef und ich suche Nachhilfe für Englisch. Ich komme aus Großbritannien und habe auch in Australien gelebt. Meine Leidenschaft ist Musik, Reisen, Fotografie, Lesen und Umweltschutz."
     }
+  },
+  "answersSection": {
+    "titleAnswerSection": "Antworten auf häufig gestellte Fragen",
+    "answerOne": {
+      "headerAnswer": "Wie ist die Ausbildung?",
+      "textAnswers": "Unser Online-Englischunterricht findet auf der interaktiven Plattform JustSchool statt. Hier können Sie in Echtzeit mit dem Lehrer kommunizieren und interessante interaktive Aufgaben ausführen."
+    },
+    "answerTwo": {
+      "headerAnswer": "Was beinhaltet der Kurs?",
+      "textAnswers": "Unser Kurs beinhaltet Videolektionen, praktische Aufgaben, Tests und die Möglichkeit, Feedback von Lehrern zu erhalten."
+    },
+    "answerThree": {
+      "headerAnswer": "Welche Ansätze werden im Training verwendet?",
+      "textAnswers": "Wir verwenden eine Vielzahl von Methoden und Herangehensweisen, wie zum Beispiel die kommunikative Methode, Spieltechniken und eine individuelle Herangehensweise an jeden Schüler."
+    },
+    "answerFour": {
+      "headerAnswer": "Was sind die Vorteile des Fernstudiums?",
+      "textAnswers": "Fernunterricht bietet Ihnen die Möglichkeit, bequem von überall und in Ihrem eigenen Tempo zu lernen und dabei Ihre Zeit effizient zu nutzen."
+    }
   }
 }

@@ -28,5 +28,24 @@
       "language": "English",
       "introduction": "Hello, my name is Józef and I am looking for English tutoring. I'm from the UK and have also lived in Australia. My passion is music, traveling, photography, reading and environmental protection."
     }
+  },
+  "answersSection": {
+    "titleAnswerSection": "Answers to popular questions",
+    "answerOne": {
+      "headerAnswer": "How is the training?",
+      "textAnswers": "Our online English lessons take place on the JustSchool interactive platform. Here you can communicate with the teacher in real time and perform interesting interactive tasks."
+    },
+    "answerTwo": {
+      "headerAnswer": "What does the course include?",
+      "textAnswers": "Our course includes video lessons, practical tasks, testing and the opportunity to receive feedback from teachers."
+    },
+    "answerThree": {
+      "headerAnswer": "What approaches are used in training?",
+      "textAnswers": "We use a variety of methods and approaches, such as the communicative method, game techniques and an individual approach to each student."
+    },
+    "answerFour": {
+      "headerAnswer": "What are the advantages of distance learning?",
+      "textAnswers": "Remote learning gives you the opportunity to study conveniently from anywhere and at your own pace, with efficient use of time."
+    }
   }
 }
