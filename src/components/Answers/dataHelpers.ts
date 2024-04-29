@@ -1,4 +1,6 @@
-export const getAnswers = (getTranslation: (key: string) => string) => [
+import { Answer } from './types';
+
+export const getAnswers = (getTranslation: (key: string) => string): Answer[] => [
   {
     id: '1',
     question: getTranslation('answersSection.answerOne.question'),
