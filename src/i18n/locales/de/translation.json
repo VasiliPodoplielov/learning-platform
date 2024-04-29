@@ -32,20 +32,20 @@
   "answersSection": {
     "titleAnswerSection": "Antworten auf häufig gestellte Fragen",
     "answerOne": {
-      "headerAnswer": "Wie ist die Ausbildung?",
-      "textAnswers": "Unser Online-Englischunterricht findet auf der interaktiven Plattform JustSchool statt. Hier können Sie in Echtzeit mit dem Lehrer kommunizieren und interessante interaktive Aufgaben ausführen."
+      "question": "Wie ist die Ausbildung?",
+      "response": "Unser Online-Englischunterricht findet auf der interaktiven Plattform JustSchool statt. Hier können Sie in Echtzeit mit dem Lehrer kommunizieren und interessante interaktive Aufgaben ausführen."
     },
     "answerTwo": {
-      "headerAnswer": "Was beinhaltet der Kurs?",
-      "textAnswers": "Unser Kurs beinhaltet Videolektionen, praktische Aufgaben, Tests und die Möglichkeit, Feedback von Lehrern zu erhalten."
+      "question": "Was beinhaltet der Kurs?",
+      "response": "Unser Kurs beinhaltet Videolektionen, praktische Aufgaben, Tests und die Möglichkeit, Feedback von Lehrern zu erhalten."
     },
     "answerThree": {
-      "headerAnswer": "Welche Ansätze werden im Training verwendet?",
-      "textAnswers": "Wir verwenden eine Vielzahl von Methoden und Herangehensweisen, wie zum Beispiel die kommunikative Methode, Spieltechniken und eine individuelle Herangehensweise an jeden Schüler."
+      "question": "Welche Ansätze werden im Training verwendet?",
+      "response": "Wir verwenden eine Vielzahl von Methoden und Herangehensweisen, wie zum Beispiel die kommunikative Methode, Spieltechniken und eine individuelle Herangehensweise an jeden Schüler."
     },
     "answerFour": {
-      "headerAnswer": "Was sind die Vorteile des Fernstudiums?",
-      "textAnswers": "Fernunterricht bietet Ihnen die Möglichkeit, bequem von überall und in Ihrem eigenen Tempo zu lernen und dabei Ihre Zeit effizient zu nutzen."
+      "question": "Was sind die Vorteile des Fernstudiums?",
+      "response": "Fernunterricht bietet Ihnen die Möglichkeit, bequem von überall und in Ihrem eigenen Tempo zu lernen und dabei Ihre Zeit effizient zu nutzen."
     }
   }
 }

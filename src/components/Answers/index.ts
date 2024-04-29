@@ -1,1 +1,1 @@
-export { Answers } from './Answers';
+export { AnswersList } from './AnswersList';

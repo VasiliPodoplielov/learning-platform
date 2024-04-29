@@ -1,20 +1,17 @@
-import { Accordion } from 'primereact/accordion';
-import { useTranslation } from 'react-i18next';
+import { AccordionTab } from 'primereact/accordion';
 
-import { Answer } from './Answer';
-import { getAnswers } from './dataHelpers';
+import { Answer } from './types';
 
-export const Answers = () => {
-  const { t } = useTranslation();
-  const answers = getAnswers(t);
+interface Props {
+  answer: Answer;
+}
+
+export const Answers = ({ answer }: Props) => {
+  const { question, response } = answer;
+
   return (
-    <div className="card">
-      <h2>{t('answersSection.titleAnswerSection')}</h2>
-      <Accordion>
-        {answers.map((answer) => (
-          <Answer key={answer.id} answer={answer} />
-        ))}
-      </Accordion>
-    </div>
+    <AccordionTab header={question}>
+      <p className="m-0">{response}</p>
+    </AccordionTab>
   );
 };

@@ -1,22 +1,22 @@
 export const getAnswers = (getTranslation: (key: string) => string) => [
   {
     id: '1',
-    headerAnswer: getTranslation('answersSection.answerOne.headerAnswer'),
-    textAnswers: getTranslation('answersSection.answerOne.textAnswers'),
+    question: getTranslation('answersSection.answerOne.question'),
+    response: getTranslation('answersSection.answerOne.response'),
   },
   {
     id: '2',
-    headerAnswer: getTranslation('answersSection.answerTwo.headerAnswer'),
-    textAnswers: getTranslation('answersSection.answerTwo.textAnswers'),
+    question: getTranslation('answersSection.answerTwo.question'),
+    response: getTranslation('answersSection.answerTwo.response'),
   },
   {
     id: '3',
-    headerAnswer: getTranslation('answersSection.answerThree.headerAnswer'),
-    textAnswers: getTranslation('answersSection.answerThree.textAnswers'),
+    question: getTranslation('answersSection.answerThree.question'),
+    response: getTranslation('answersSection.answerThree.response'),
   },
   {
     id: '4',
-    headerAnswer: getTranslation('answersSection.answerFour.headerAnswer'),
-    textAnswers: getTranslation('answersSection.answerFour.textAnswers'),
+    question: getTranslation('answersSection.answerFour.question'),
+    response: getTranslation('answersSection.answerFour.response'),
   },
 ];

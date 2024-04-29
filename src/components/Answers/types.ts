@@ -1,5 +1,5 @@
-export interface typesAnswer {
+export interface Answer {
   id: string;
-  headerAnswer: string;
-  textAnswers: string;
+  question: string;
+  response: string;
 }

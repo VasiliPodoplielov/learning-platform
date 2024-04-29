@@ -32,20 +32,20 @@
   "answersSection": {
     "titleAnswerSection": "Odpowiedzi na popularne pytania",
     "answerOne": {
-      "headerAnswer": "Jak przebiega szkolenie?",
-      "textAnswers": "Nasze lekcje języka angielskiego online odbywają się na interaktywnej platformie JustSchool. Tutaj możesz komunikować się z nauczycielem w czasie rzeczywistym i wykonywać ciekawe interaktywne zadania."
+      "question": "Jak przebiega szkolenie?",
+      "response": "Nasze lekcje języka angielskiego online odbywają się na interaktywnej platformie JustSchool. Tutaj możesz komunikować się z nauczycielem w czasie rzeczywistym i wykonywać ciekawe interaktywne zadania."
     },
     "answerTwo": {
-      "headerAnswer": "Co obejmuje kurs?",
-      "textAnswers": "Nasz kurs obejmuje lekcje wideo, zadania praktyczne, testy i możliwość otrzymania informacji zwrotnej od nauczycieli."
+      "question": "Co obejmuje kurs?",
+      "response": "Nasz kurs obejmuje lekcje wideo, zadania praktyczne, testy i możliwość otrzymania informacji zwrotnej od nauczycieli."
     },
     "answerThree": {
-      "headerAnswer": "Jakie podejścia stosuje się w szkoleniach?",
-      "textAnswers": "Stosujemy różnorodne metody i podejścia, takie jak metoda komunikacyjna, techniki gier i indywidualne podejście do każdego ucznia."
+      "question": "Jakie podejścia stosuje się w szkoleniach?",
+      "response": "Stosujemy różnorodne metody i podejścia, takie jak metoda komunikacyjna, techniki gier i indywidualne podejście do każdego ucznia."
     },
     "answerFour": {
-      "headerAnswer": "Jakie są zalety nauczania na odległość?",
-      "textAnswers": "Nauka zdalna daje możliwość wygodnej nauki z dowolnego miejsca i we własnym tempie, przy efektywnym wykorzystaniu czasu."
+      "question": "Jakie są zalety nauczania na odległość?",
+      "response": "Nauka zdalna daje możliwość wygodnej nauki z dowolnego miejsca i we własnym tempie, przy efektywnym wykorzystaniu czasu."
     }
   }
 }
