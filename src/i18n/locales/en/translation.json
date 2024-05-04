@@ -47,5 +47,16 @@
       "question": "What are the advantages of distance learning?",
       "response": "Remote learning gives you the opportunity to study conveniently from anywhere and at your own pace, with efficient use of time."
     }
+  },
+  "reviewsSection": {
+    "titleSection": "Reviews",
+    "reviewLara": {
+      "respond": "Good afternoon, I definitely recommend the online school „STUDYOUA“. Qualified specialists, an excellent platform, I really like the methodology and availability of teaching. The child has been studying for the third year, good results, and most importantly, prepares with interest and is looking forward to the next lesson with teacher Anna.",
+      "name": "Lara"
+    },
+    "reviewJoseph": {
+      "respond": "Good day! My son has been in school for almost a year. We are very satisfied with the quality of training and service in general. Everything is on time, of high quality and always as convenient for us. We thank the school for our knowledge.",
+      "name": "Joseph"
+    }
   }
 }
