@@ -1,56 +1,61 @@
-export const getTeachers = (getTranslation: (key: string) => string) => [
+import manImage from 'src/assets/images/teachers/user-female.png';
+import womanImage from 'src/assets/images/teachers/user-female.png';
+
+import { Teacher } from './types.ts';
+
+export const getTeachers = (getTranslation: (key: string) => string): Teacher[] => [
   {
     id: '1',
-    imageUrl: './public/images/teachers/user-female.png',
+    imageUrl: manImage,
     name: 'Lara',
     language: getTranslation('teachersSection.teacherLara.language'),
     introduction: getTranslation('teachersSection.teacherLara.introduction'),
   },
   {
     id: '2',
-    imageUrl: './public/images/teachers/user-man.png',
+    imageUrl: manImage,
     name: 'Joseph',
     language: getTranslation('teachersSection.teacherJoseph.language'),
     introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
   },
   {
     id: '3',
-    imageUrl: './public/images/teachers/user-female.png',
+    imageUrl: womanImage,
     name: 'Lara',
     language: getTranslation('teachersSection.teacherLara.language'),
     introduction: getTranslation('teachersSection.teacherLara.introduction'),
   },
   {
     id: '4',
-    imageUrl: './public/images/teachers/user-man.png',
+    imageUrl: manImage,
     name: 'Joseph',
     language: getTranslation('teachersSection.teacherJoseph.language'),
     introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
   },
   {
     id: '5',
-    imageUrl: './public/images/teachers/user-female.png',
+    imageUrl: womanImage,
     name: 'Lara',
     language: getTranslation('teachersSection.teacherLara.language'),
     introduction: getTranslation('teachersSection.teacherLara.introduction'),
   },
   {
     id: '6',
-    imageUrl: './public/images/teachers/user-man.png',
+    imageUrl: manImage,
     name: 'Joseph',
     language: getTranslation('teachersSection.teacherJoseph.language'),
     introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
   },
   {
     id: '7',
-    imageUrl: './public/images/teachers/user-female.png',
+    imageUrl: womanImage,
     name: 'Lara',
     language: getTranslation('teachersSection.teacherLara.language'),
     introduction: getTranslation('teachersSection.teacherLara.introduction'),
   },
   {
     id: '8',
-    imageUrl: './public/images/teachers/user-man.png',
+    imageUrl: manImage,
     name: 'Joseph',
     language: getTranslation('teachersSection.teacherJoseph.language'),
     introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
