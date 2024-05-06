@@ -25,5 +25,5 @@ export const RESPONSIVE_OPTIONS = [
     numScroll: 1,
   },
 ];
-export const CAROUSEL_VISIBLE_ITEMS_COUNT = 2;
-export const CAROUSEL_SCROLL_ITEMS_COUNT = 2;
+export const REVIEWS_VISIBLE_ITEMS_COUNT = 2;
+export const REVIEWS_SCROLL_ITEMS_COUNT = 2;

@@ -4,7 +4,7 @@ export const getReviews = (getTranslation: (key: string) => string) => [
     respond: getTranslation('reviewsSection.reviewLara.respond'),
     name: 'Lara',
     iconUrl: 'https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png',
-    linkRespond:
+    respondLink:
       'https://www.facebook.com/permalink.php?story_fbid=pfbid0nwwg8xMpqvvZgK9QcvTp5HcvqAvR2CTXkqAaRGS4JDUruGSvovJhEQ5YNM6n42Etl&id=100007210728176',
   },
   {
@@ -12,7 +12,7 @@ export const getReviews = (getTranslation: (key: string) => string) => [
     respond: getTranslation('reviewsSection.reviewJoseph.respond'),
     name: 'Joseph',
     iconUrl: 'https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png',
-    linkRespond:
+    respondLink:
       'https://www.facebook.com/permalink.php?story_fbid=pfbid0nwwg8xMpqvvZgK9QcvTp5HcvqAvR2CTXkqAaRGS4JDUruGSvovJhEQ5YNM6n42Etl&id=100007210728176',
   },
   {
@@ -20,7 +20,7 @@ export const getReviews = (getTranslation: (key: string) => string) => [
     respond: getTranslation('reviewsSection.reviewLara.respond'),
     name: 'Lara',
     iconUrl: 'https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png',
-    linkRespond:
+    respondLink:
       'https://www.facebook.com/permalink.php?story_fbid=pfbid0nwwg8xMpqvvZgK9QcvTp5HcvqAvR2CTXkqAaRGS4JDUruGSvovJhEQ5YNM6n42Etl&id=100007210728176',
   },
   {
@@ -28,7 +28,7 @@ export const getReviews = (getTranslation: (key: string) => string) => [
     respond: getTranslation('reviewsSection.reviewJoseph.respond'),
     name: 'Joseph',
     iconUrl: 'https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png',
-    linkRespond:
+    respondLink:
       'https://www.facebook.com/permalink.php?story_fbid=pfbid0nwwg8xMpqvvZgK9QcvTp5HcvqAvR2CTXkqAaRGS4JDUruGSvovJhEQ5YNM6n42Etl&id=100007210728176',
   },
   {
@@ -36,7 +36,7 @@ export const getReviews = (getTranslation: (key: string) => string) => [
     respond: getTranslation('reviewsSection.reviewLara.respond'),
     name: 'Lara',
     iconUrl: 'https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png',
-    linkRespond:
+    respondLink:
       'https://www.facebook.com/permalink.php?story_fbid=pfbid0nwwg8xMpqvvZgK9QcvTp5HcvqAvR2CTXkqAaRGS4JDUruGSvovJhEQ5YNM6n42Etl&id=100007210728176',
   },
   {
@@ -44,7 +44,7 @@ export const getReviews = (getTranslation: (key: string) => string) => [
     respond: getTranslation('reviewsSection.reviewJoseph.respond'),
     name: 'Joseph',
     iconUrl: 'https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png',
-    linkRespond:
+    respondLink:
       'https://www.facebook.com/permalink.php?story_fbid=pfbid0nwwg8xMpqvvZgK9QcvTp5HcvqAvR2CTXkqAaRGS4JDUruGSvovJhEQ5YNM6n42Etl&id=100007210728176',
   },
   {
@@ -52,7 +52,7 @@ export const getReviews = (getTranslation: (key: string) => string) => [
     respond: getTranslation('reviewsSection.reviewLara.respond'),
     name: 'Lara',
     iconUrl: 'https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png',
-    linkRespond:
+    respondLink:
       'https://www.facebook.com/permalink.php?story_fbid=pfbid0nwwg8xMpqvvZgK9QcvTp5HcvqAvR2CTXkqAaRGS4JDUruGSvovJhEQ5YNM6n42Etl&id=100007210728176',
   },
   {
@@ -60,7 +60,7 @@ export const getReviews = (getTranslation: (key: string) => string) => [
     respond: getTranslation('reviewsSection.reviewJoseph.respond'),
     name: 'Joseph',
     iconUrl: 'https://primefaces.org/cdn/primereact/images/avatar/amyelsner.png',
-    linkRespond:
+    respondLink:
       'https://www.facebook.com/permalink.php?story_fbid=pfbid0nwwg8xMpqvvZgK9QcvTp5HcvqAvR2CTXkqAaRGS4JDUruGSvovJhEQ5YNM6n42Etl&id=100007210728176',
   },
 ];

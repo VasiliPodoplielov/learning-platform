@@ -3,5 +3,5 @@ export interface Review {
   respond: string;
   name: string;
   iconUrl: string;
-  linkRespond: string;
+  respondLink: string;
 }
