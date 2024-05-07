@@ -1,0 +1,10 @@
+.linkReviews {
+  color: #f7f9f9;
+  font-size: 16px;
+  transition: font-size 0.2s linear;
+}
+.linkReviews:hover {
+  color: #ffd54f;
+  font-size: 20px;
+  transition: font-size 0.2s linear;
+}

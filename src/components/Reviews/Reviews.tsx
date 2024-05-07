@@ -2,9 +2,9 @@ import { Carousel } from 'primereact/carousel';
 import { useTranslation } from 'react-i18next';
 
 import {
+  RESPONSIVE_OPTIONS,
   REVIEWS_SCROLL_ITEMS_COUNT,
   REVIEWS_VISIBLE_ITEMS_COUNT,
-  RESPONSIVE_OPTIONS,
 } from './constants';
 import { getReviews } from './dataHelpers';
 import { ReviewCard } from './ReviewCard';

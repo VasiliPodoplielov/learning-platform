@@ -3,7 +3,7 @@ import { Card } from 'primereact/card';
 import { useTranslation } from 'react-i18next';
 
 import { Review } from './types';
-import { Button } from 'primereact/button';
+import styles from './styles.module.css';
 
 interface Props {
   review: Review;
@@ -21,9 +21,9 @@ export const ReviewCard = ({ review }: Props) => {
             <Avatar image={iconUrl} shape="circle" />
             <span className="font-bold text-bluegray-50">{name}</span>
           </div>
-          <Button onClick={() => window.open(respondLink)}>
+          <a className={styles.linkReviews} href={respondLink} target="blank">
             {t('reviewsSection.respondLinkText')}
-          </Button>
+          </a>
         </div>
       }
       className="min-h-full m-6"
