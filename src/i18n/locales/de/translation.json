@@ -47,5 +47,17 @@
       "question": "Was sind die Vorteile des Fernstudiums?",
       "response": "Fernunterricht bietet Ihnen die Möglichkeit, bequem von überall und in Ihrem eigenen Tempo zu lernen und dabei Ihre Zeit effizient zu nutzen."
     }
+  },
+  "reviewsSection": {
+    "titleSection": "Rezensionen",
+    "respondLinkText": "Link zum Feedback",
+    "reviewLara": {
+      "respond": "Guten Tag, ich empfehle auf jeden Fall die Online-Schule „STUDYOUA“. Qualifizierte Fachkräfte, eine hervorragende Plattform, mir gefällt die Methodik und Zugänglichkeit des Unterrichts sehr gut. Das Kind lernt seit dem dritten Jahr, gute Ergebnisse und vor allem bereitet es sich mit vor Interesse und freut sich auf die nächste Unterrichtsstunde mit Lehrerin Anna.",
+      "name": "Lara"
+    },
+    "reviewJoseph": {
+      "respond": "Guten Tag! Mein Sohn ist seit fast einem Jahr in der Schule. Wir sind mit der Qualität der Schulung und des Service im Allgemeinen sehr zufrieden. Alles ist pünktlich, qualitativ hochwertig und für uns immer so bequem. Wir danken der Schule für unser Wissen.",
+      "name": "Joseph"
+    }
   }
 }
