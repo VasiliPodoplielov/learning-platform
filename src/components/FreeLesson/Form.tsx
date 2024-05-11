@@ -18,7 +18,7 @@ export const Form = () => {
     email: Yup.string()
       .required(t('freeLessons.validation.textRequired') as string)
       .email(t('freeLessons.validation.textEmail') as string),
-    accept: Yup.boolean(),
+    accept: Yup.boolean().required(t('freeLessons.validation.textRequired') as string),
   });
 
   const form = useForm<IFormInput>({
