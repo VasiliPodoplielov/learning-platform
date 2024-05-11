@@ -59,5 +59,25 @@
       "respond": "Good day! My son has been in school for almost a year. We are very satisfied with the quality of training and service in general. Everything is on time, of high quality and always as convenient for us. We thank the school for our knowledge.",
       "name": "Joseph"
     }
+  },
+  "freeLessons": {
+    "titleFreeLessons": "You will be able to during the trial lesson",
+    "tasksFreeLessons": {
+      "one": "Get to know the teacher",
+      "two": "Learn basic concepts",
+      "three": "Ask a question"
+    },
+    "titleForm": "We will answer all your questions",
+    "validation": {
+      "textRequired": "Field is required",
+      "textEmail": "Email address is invalid"
+    },
+    "formInput": {
+      "name": "Name",
+      "email": "Mail",
+      "phone": "Phone number",
+      "accept": "I agree to the processing of personal data"
+    },
+    "labelButton": "Try it for free"
   }
 }
