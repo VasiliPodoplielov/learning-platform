@@ -1,7 +1,7 @@
 import { yupResolver } from '@hookform/resolvers/yup';
 import { Button } from 'primereact/button';
 import { Checkbox } from 'primereact/checkbox';
-import { InputText } from 'primereact/inputtext';
+import { InputText, InputNumber } from 'primereact/inputtext';
 import { Controller, useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import * as Yup from 'yup';
@@ -11,7 +11,7 @@ import { IFormInput } from './types';
 export const Form = () => {
   const { t } = useTranslation();
 
-  const validationSchema = Yup.object({
+  const validationSchema = Yup.object().shape({
     name: Yup.string().required(t('freeLessons.validation.textRequired') as string),
     phone: Yup.number().required(t('freeLessons.validation.textRequired') as string),
     email: Yup.string()
@@ -23,7 +23,7 @@ export const Form = () => {
   const form = useForm<IFormInput>({
     defaultValues: {
       name: '',
-      phone: '',
+      phone: 0,
       email: '',
       accept: false,
     },
@@ -88,7 +88,7 @@ export const Form = () => {
                   name="phone"
                   control={control}
                   render={({ field, fieldState }) => (
-                    <InputText
+                    <InputNumber
                       id={field.name}
                       {...field}
                       className={fieldState.invalid ? 'p-invalid' : ''}
