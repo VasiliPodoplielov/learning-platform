@@ -16,9 +16,7 @@ export const FreeLesson = () => {
             <li>{t('freeLessons.tasksFreeLessons.three')}</li>
           </ul>
         </div>
-        <div className="w-full md:w-5 flex align-items-center justify-content-center py-5">
-          <Form />
-        </div>
+        <Form />
       </div>
     </div>
   );

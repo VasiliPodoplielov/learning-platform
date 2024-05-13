@@ -1,6 +1,6 @@
 export interface IFormInput {
   name: string;
-  phone: number;
+  phone: string;
   email: string;
   accept: boolean;
 }
