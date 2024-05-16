@@ -4,3 +4,5 @@ export const DEFAULT_VALUES = {
   email: '',
   accept: false,
 };
+
+export const TEXT_REQUIRED = 'freeLessons.validation.textRequired';

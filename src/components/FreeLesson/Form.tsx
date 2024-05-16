@@ -1,28 +1,22 @@
-import React, { useState } from 'react';
 import { Button } from 'primereact/button';
 import { Checkbox } from 'primereact/checkbox';
-import { InputText } from 'primereact/inputtext';
-import { Controller, useForm } from 'react-hook-form';
-import { useTranslation } from 'react-i18next';
 import { InputMask } from 'primereact/inputmask';
+import { InputText } from 'primereact/inputtext';
+import { Controller } from 'react-hook-form';
+import { useTranslation } from 'react-i18next';
 
-import { IFormInput } from './types';
-import { useFreeLesson } from './dataHelpers';
+import { useFreeLesson } from './useFreeLesson';
 
 export const Form = () => {
   const { t } = useTranslation();
+
+  const { form, onSubmit } = useFreeLesson();
 
   const {
     control,
     handleSubmit,
     formState: { errors },
-    reset,
-  } = useFreeLesson();
-
-  const onSubmit = (data: IFormInput) => {
-    console.log(data);
-    reset();
-  };
+  } = form;
 
   return (
     <div className="w-full md:w-5 flex align-items-center justify-content-center py-5">
@@ -79,7 +73,7 @@ export const Form = () => {
                         <InputMask
                           value={field.value}
                           onChange={(e) => field.onChange(e.target.value)}
-                          mask="(99)999-999-999"
+                          mask="+99-999-999-999"
                           placeholder="99-99999999"
                           id={field.name}
                           className={fieldState.invalid ? 'p-invalid' : ''}
