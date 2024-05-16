@@ -2,8 +2,8 @@ import { Avatar } from 'primereact/avatar';
 import { Card } from 'primereact/card';
 import { useTranslation } from 'react-i18next';
 
-import { Review } from './types';
 import styles from './styles.module.css';
+import { Review } from './types';
 
 interface Props {
   review: Review;

@@ -59,5 +59,25 @@
       "respond": "Dobry dzień! Mój syn chodzi do szkoły już prawie rok. Jesteśmy bardzo zadowoleni z jakości szkoleń i ogólnie obsługi. Wszystko na czas, wysokiej jakości i zawsze tak samo dla nas wygodne. Dziękujemy szkole za naszą wiedzę.",
       "name": "Joseph"
     }
+  },
+  "freeLessons": {
+    "titleFreeLessons": "Zacznij od bezpłatnej lekcji",
+    "tasksFreeLessons": {
+      "one": "Poznajesz nauczyciela",
+      "two": "Naucz się podstawowych pojęć",
+      "three": "Zadaj pytanie"
+    },
+    "titleForm": "Odpowiemy na wszystkie Twoje pytania",
+    "validation": {
+      "textRequired": "To pole jest wymagane",
+      "textEmail": "Adres email jest nieprawidłowy"
+    },
+    "formInput": {
+      "name": "Imię",
+      "email": "Poczta",
+      "phone": "Numer telefonu",
+      "accept": "Wyrażam zgodę na przetwarzanie danych osobowych"
+    },
+    "labelButton": "Spróbuj za darmo"
   }
 }
