@@ -1,6 +1,7 @@
 import './App.css';
 
 import { AnswersList } from './components/Answers';
+import { Footer } from './components/Footer';
 import { FreeLesson } from './components/FreeLesson';
 import { Header } from './components/Header';
 import { Reviews } from './components/Reviews';
@@ -15,5 +16,6 @@ export const App = () => (
     <AnswersList />
     <Reviews />
     <FreeLesson />
+    <Footer />
   </>
 );
