@@ -79,5 +79,17 @@
       "accept": "Ich stimme der Verarbeitung personenbezogener Daten zu"
     },
     "labelButton": "Probieren Sie es kostenlos aus"
+  },
+  "footer": {
+    "contacts": {
+      "tittle": "Kontakte",
+      "telegram": "Telegramm"
+    },
+    "address": {
+      "tittle": "Wir arbeiten:",
+      "timeOpen": "Mo-Fr von 8:00 bis 17:30 Uhr",
+      "tittleAddress": "Unsere Adresse:",
+      "addressStreet": "Zalishchyki, Stepana Bandera Str. 2"
+    }
   }
 }

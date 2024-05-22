@@ -79,5 +79,17 @@
       "accept": "Wyrażam zgodę na przetwarzanie danych osobowych"
     },
     "labelButton": "Spróbuj za darmo"
+  },
+  "footer": {
+    "contacts": {
+      "tittle": "Kontakty:",
+      "telegram": "Telegram"
+    },
+    "address": {
+      "tittle": "Pracujemy:",
+      "timeOpen": "Pn-Pt od 8:00 do 17:00",
+      "tittleAddress": "Nasz adres:",
+      "addressStreet": "Zaliszczyki ul.Stepana Bandery 2"
+    }
   }
 }
