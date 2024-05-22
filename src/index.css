@@ -6,7 +6,3 @@ a {
   color: inherit;
   cursor: pointer;
 }
-ul[class],
-ol[class] {
-  list-style: none;
-}
