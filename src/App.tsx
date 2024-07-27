@@ -1,4 +1,5 @@
 import './App.css';
+import './primereact-theme/theme.css';
 
 import { AnswersList } from './components/Answers';
 import { FreeLesson } from './components/FreeLesson';
