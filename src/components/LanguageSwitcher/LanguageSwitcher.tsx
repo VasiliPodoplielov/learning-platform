@@ -21,7 +21,7 @@ export const LanguageSwitcher = () => {
         onChange={handleCountryChange}
         valueTemplate={countryOptionTemplate}
         itemTemplate={countryOptionTemplate}
-        className="w-full md:w-6rem"
+        className="w-full md:w-7rem"
       />
     </div>
   );
