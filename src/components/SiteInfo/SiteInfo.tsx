@@ -10,7 +10,9 @@ export const SiteInfo = () => {
   const header = (
     <div className={styles.bgHeaderCard}>
       <div className="flex flex-column align-items-end pt-8 pr-5">
-        <p className="text-100 text-2xl">{t('siteInfoSection.textSignUp')}</p>
+        <p className="text-100 text-2xl  bg-gray-900 border-round-md">
+          {t('siteInfoSection.textSignUp')}
+        </p>
         <Button label={t('buttons.signUpClass')} />
       </div>
     </div>
