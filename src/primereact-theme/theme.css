@@ -6675,7 +6675,7 @@
   .p-menubar.p-menubar-mobile .p-menubar-root-list {
     padding: 0.25rem 0;
     background: #000000;
-    border: 1px solid #8f0000;
+    border: none;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
       0 4px 5px 0 rgba(0, 0, 0, 0.14),
@@ -6762,7 +6762,7 @@
       display: none;
       padding: 0.25rem 0;
       background: #000000;
-      border: 1px solid #8f0000;
+      border: none;
       box-shadow:
         0 2px 4px -1px rgba(0, 0, 0, 0.2),
         0 4px 5px 0 rgba(0, 0, 0, 0.14),
