@@ -1,3 +1,11 @@
+.bg-black {
+  background-color: var(--black);
+}
+
+.text-white {
+  color: var(--white);
+}
+
 :root {
   font-family: 'Inter var', sans-serif;
   font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
@@ -16,7 +24,7 @@
   --primary-color-text: #ffffff;
   --surface-0: #111827;
   --surface-50: #1f2937;
-  --surface-100: #ffffff;
+  --surface-100: #374151;
   --surface-200: #4b5563;
   --surface-300: #6b7280;
   --surface-400: #9ca3af;
@@ -24,7 +32,7 @@
   --surface-600: #e5e7eb;
   --surface-700: #f3f4f6;
   --surface-800: #f9fafb;
-  --surface-900: #ffffff;
+  --surface-900: #111827;
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
   --gray-200: #e5e7eb;
@@ -34,7 +42,7 @@
   --gray-600: #4b5563;
   --gray-700: #374151;
   --gray-800: #1f2937;
-  --gray-900: #000000;
+  --gray-900: #111827;
   --content-padding: 1.25rem;
   --inline-spacing: 0.5rem;
   --border-radius: 6px;
@@ -49,6 +57,8 @@
   --highlight-bg: rgba(0, 0, 0, 0.16);
   --highlight-text-color: rgba(255, 255, 255, 0.87);
   color-scheme: dark;
+  --black: #000000;
+  --white: #ffffff;
 }
 
 @font-face {
