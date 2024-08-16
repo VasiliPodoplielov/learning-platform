@@ -1,3 +1,11 @@
+.bg-black {
+  background-color: var(--black);
+}
+
+.text-white {
+  color: var(--white);
+}
+
 :root {
   font-family: 'Inter var', sans-serif;
   font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
@@ -24,7 +32,7 @@
   --surface-600: #e5e7eb;
   --surface-700: #f3f4f6;
   --surface-800: #f9fafb;
-  --surface-900: #ffffff;
+  --surface-900: #111827;
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
   --gray-200: #e5e7eb;
@@ -49,6 +57,8 @@
   --highlight-bg: rgba(0, 0, 0, 0.16);
   --highlight-text-color: rgba(255, 255, 255, 0.87);
   color-scheme: dark;
+  --black: #000000;
+  --white: #ffffff;
 }
 
 @font-face {
@@ -1086,7 +1096,7 @@
     border-radius: 16px;
   }
   .p-chips .p-chips-multiple-container .p-chips-token.p-focus {
-    background: #6b7280;
+    background: #6e806b;
     color: rgb(255, 255, 255);
   }
   .p-chips .p-chips-multiple-container .p-chips-token .p-chips-token-icon {
@@ -1442,7 +1452,7 @@
     border-radius: 30px;
   }
   .p-inputswitch .p-inputswitch-slider {
-    background: #6b7280;
+    background: #6e806b;
     transition:
       background-color 0.2s,
       color 0.2s,
