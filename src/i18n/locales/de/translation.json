@@ -20,13 +20,17 @@
   },
   "teachersSection": {
     "titleSection": "Unsere Lehrer",
-    "teacherLara": {
+    "teacherSofiia": {
       "language": "Englisch",
-      "introduction": "Hallo! Mein Name ist Lara und ich komme aus Sydney, Australien. Meine Leidenschaft ist das Reisen um die Welt und das Kennenlernen neuer Kulturen. Ich spiele gerne Fußball und verbringe gerne Zeit mit Freunden und Familie."
+      "introduction": "Sofia Stogrin ist eine junge, aber erfahrene Englischlehrerin mit 12 Jahren Erfahrung. Es kombiniert moderne Technologien und einen individuellen Ansatz und hilft den Schülern, in kürzester Zeit hohe Ergebnisse beim Sprachenlernen zu erzielen."
     },
-    "teacherJoseph": {
-      "language": "Englisch",
-      "introduction": "Hallo, mein Name ist Józef und ich suche Nachhilfe für Englisch. Ich komme aus Großbritannien und habe auch in Australien gelebt. Meine Leidenschaft ist Musik, Reisen, Fotografie, Lesen und Umweltschutz."
+    "teacherAnastasiia": {
+      "language": "Polnische",
+      "introduction": "Anastasiia Plaschynska ist eine junge Polnischlehrerin mit dreijähriger Erfahrung. Sie nutzt interaktive Techniken und einen kreativen Ansatz, um den Unterricht für ihre Schüler interessant und effektiv zu gestalten."
+    },
+    "teacherDiana": {
+      "language": "Deutsch",
+      "introduction": "Diana Koshman ist eine junge Deutschlehrerin mit mehr als drei Jahren Erfahrung. Sie nutzt kommunikative Lehrmethoden und organisiert praxisnahe Kurse, die den Studierenden dabei helfen, sicher auf Deutsch zu kommunizieren."
     }
   },
   "answersSection": {

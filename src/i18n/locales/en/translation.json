@@ -20,13 +20,17 @@
   },
   "teachersSection": {
     "titleSection": "Our teachers",
-    "teacherLara": {
+    "teacherSofiia": {
       "language": "English",
-      "introduction": "Hi! My name is Lara and I am from Sydney, Australia. My passion is traveling around the world and getting to know new cultures. I like playing football and spending time with friends and family."
+      "introduction": "Sofiia Shtohryn is a young but experienced English teacher with 12 years of experience. She combines modern technologies and an individual approach, helping students to achieve high results in language learning in the shortest period of time."
     },
-    "teacherJoseph": {
-      "language": "English",
-      "introduction": "Hello, my name is Józef and I am looking for English tutoring. I'm from the UK and have also lived in Australia. My passion is music, traveling, photography, reading and environmental protection."
+    "teacherAnastasiia": {
+      "language": "Polish",
+      "introduction": "Anastasiia Plashchynska is a young teacher of the Polish language with three years of experience. She uses interactive technologies and a creative approach to make lessons interesting and effective for her students."
+    },
+    "teacherDiana": {
+      "language": "German",
+      "introduction": "Diana Koshman is a young German teacher with more than three years of experience. She uses communicative teaching methods and organizes practical classes that help students to gain confidence in speaking German."
     }
   },
   "answersSection": {
