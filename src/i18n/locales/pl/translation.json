@@ -20,13 +20,17 @@
   },
   "teachersSection": {
     "titleSection": "Nasi nauczyciele",
-    "teacherLara": {
+    "teacherSofiia": {
       "language": "Angielski",
-      "introduction": "Cześć! Mam na imię Lara i pochodzę z Sydney w Australii. Moją pasją jest podróżowanie po świecie i poznawanie nowych kultur. Lubię grać w piłkę nożną i spędzać czas z przyjaciółmi i rodziną."
+      "introduction": "Sofia Stogrin jest młodą, ale doświadczoną nauczycielką języka angielskiego z 12-letnim stażem. Łączy w sobie nowoczesne technologie i indywidualne podejście, pomagając uczniom osiągnąć wysokie wyniki w nauce języków w możliwie najkrótszym czasie."
     },
-    "teacherJoseph": {
-      "language": "Angielski",
-      "introduction": "Witam, mam na imię Józef i poszukuję korepetycji z języka angielskiego. Pochodzę z Wielkiej Brytanii i mieszkałem także w Australii. Moją pasją jest muzyka, podróże, fotografia, czytanie i ochrona środowiska."
+    "teacherAnastasiia": {
+      "language": "Polski",
+      "introduction": "Anastasiia Plaszczyńska jest młodą nauczycielką języka polskiego z trzyletnim stażem. Wykorzystuje techniki interaktywne i kreatywne podejście, aby lekcje były ciekawe i efektywne dla jej uczniów."
+    },
+    "teacherDiana": {
+      "language": "Niemiecki",
+      "introduction": "Diana Koshman jest młodą nauczycielką języka niemieckiego z ponad trzyletnim doświadczeniem. Stosuje komunikatywne metody nauczania i organizuje zajęcia praktyczne, które pomagają uczniom swobodnie komunikować się w języku niemieckim."
     }
   },
   "answersSection": {

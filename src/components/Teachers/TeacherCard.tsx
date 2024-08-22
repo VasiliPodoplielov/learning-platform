@@ -17,10 +17,10 @@ export const TeacherCard = ({ teacher }: Props) => {
       title={name}
       subTitle={language}
       footer={<Button label={t('buttons.trialClass')} />}
-      header={<img src={imageUrl} alt={'Teacher'} />}
-      className="md:w-25rem"
+      header={<img src={imageUrl} alt={'Teacher'} className="w-8 md:w-full" />}
+      className="border-1 surface-border border-round m-2  p-3 text-center"
     >
-      <p className="m-0">{introduction}</p>
+      <p className="m-0 text-left">{introduction}</p>
     </Card>
   );
 };

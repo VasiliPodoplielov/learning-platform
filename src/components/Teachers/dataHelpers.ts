@@ -1,63 +1,29 @@
-import manImage from 'src/assets/images/teachers/user-female.png';
-import womanImage from 'src/assets/images/teachers/user-female.png';
+import TeacherAnastasiaImg from 'src/assets/images/teachers/TeacherAnastasiaImg.png';
+import TeacherDianaImg from 'src/assets/images/teachers/TeacherDianaImg.png';
+import TeacherSofiiaImg from 'src/assets/images/teachers/TeacherSofiiaImg.png';
 
 import { Teacher } from './types.ts';
 
 export const getTeachers = (getTranslation: (key: string) => string): Teacher[] => [
   {
     id: '1',
-    imageUrl: manImage,
-    name: 'Lara',
-    language: getTranslation('teachersSection.teacherLara.language'),
-    introduction: getTranslation('teachersSection.teacherLara.introduction'),
+    imageUrl: TeacherSofiiaImg,
+    name: 'Sofiia',
+    language: getTranslation('teachersSection.teacherSofiia.language'),
+    introduction: getTranslation('teachersSection.teacherSofiia.introduction'),
   },
   {
     id: '2',
-    imageUrl: manImage,
-    name: 'Joseph',
-    language: getTranslation('teachersSection.teacherJoseph.language'),
-    introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
+    imageUrl: TeacherAnastasiaImg,
+    name: 'Anastasiia',
+    language: getTranslation('teachersSection.teacherAnastasiia.language'),
+    introduction: getTranslation('teachersSection.teacherAnastasiia.introduction'),
   },
   {
     id: '3',
-    imageUrl: womanImage,
-    name: 'Lara',
-    language: getTranslation('teachersSection.teacherLara.language'),
-    introduction: getTranslation('teachersSection.teacherLara.introduction'),
-  },
-  {
-    id: '4',
-    imageUrl: manImage,
-    name: 'Joseph',
-    language: getTranslation('teachersSection.teacherJoseph.language'),
-    introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
-  },
-  {
-    id: '5',
-    imageUrl: womanImage,
-    name: 'Lara',
-    language: getTranslation('teachersSection.teacherLara.language'),
-    introduction: getTranslation('teachersSection.teacherLara.introduction'),
-  },
-  {
-    id: '6',
-    imageUrl: manImage,
-    name: 'Joseph',
-    language: getTranslation('teachersSection.teacherJoseph.language'),
-    introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
-  },
-  {
-    id: '7',
-    imageUrl: womanImage,
-    name: 'Lara',
-    language: getTranslation('teachersSection.teacherLara.language'),
-    introduction: getTranslation('teachersSection.teacherLara.introduction'),
-  },
-  {
-    id: '8',
-    imageUrl: manImage,
-    name: 'Joseph',
-    language: getTranslation('teachersSection.teacherJoseph.language'),
-    introduction: getTranslation('teachersSection.teacherJoseph.introduction'),
+    imageUrl: TeacherDianaImg,
+    name: 'Diana',
+    language: getTranslation('teachersSection.teacherDiana.language'),
+    introduction: getTranslation('teachersSection.teacherDiana.introduction'),
   },
 ];
