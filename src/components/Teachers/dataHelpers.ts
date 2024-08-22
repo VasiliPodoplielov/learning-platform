@@ -1,6 +1,6 @@
-import Anastasiia from 'src/assets/images/teachers/Anastasia.png';
-import Diana from 'src/assets/images/teachers/Diana.png';
-import Sofiia from 'src/assets/images/teachers/Sofiia.png';
+import Anastasiia from 'src/assets/images/teachers/TeacherAnastasiaImg.png';
+import Diana from 'src/assets/images/teachers/TeacherDianaImg.png';
+import Sofiia from 'src/assets/images/teachers/TeacherSofiiaImg.png';
 
 import { Teacher } from './types.ts';
 

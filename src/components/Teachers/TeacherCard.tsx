@@ -18,7 +18,7 @@ export const TeacherCard = ({ teacher }: Props) => {
       subTitle={language}
       footer={<Button label={t('buttons.trialClass')} />}
       header={<img src={imageUrl} alt={'Teacher'} className="w-8 md:w-full" />}
-      className="border-1 surface-border border-round m-2 py-3 px-3 text-center"
+      className="border-1 surface-border border-round m-2  p-3 text-center"
     >
       <p className="m-0 text-left">{introduction}</p>
     </Card>
