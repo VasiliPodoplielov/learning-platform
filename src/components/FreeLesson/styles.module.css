@@ -1,8 +1,7 @@
 .bgFreeLesson {
   background:
-    linear-gradient(rgba(60, 6, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('https://i.pinimg.com/564x/db/31/43/db3143590b8773efe7b7ac64d5f77fb2.jpg') 0 0 / cover
-      no-repeat;
+    linear-gradient(rgba(40, 16, 16, 0.7), rgba(0, 0, 0, 0.7)),
+    url('/src/assets/images/FreeLesson/bgFreeLesson.png') 0 0 / cover no-repeat;
 }
 
 .letterSpacing_2 {
