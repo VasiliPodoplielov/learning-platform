@@ -66,11 +66,7 @@
   },
   "freeLessons": {
     "titleFreeLessons": "Dies ist während der Probestunde möglich",
-    "tasksFreeLessons": {
-      "one": "Lernen Sie den Lehrer kennen",
-      "two": "Lernen Sie grundlegende Konzepte",
-      "three": "Stelle eine Frage"
-    },
+    "tasksFreeLessons": "Überzeugen Sie sich selbst von unseren Vorteilen und kommen Sie zu einer kostenlosen Probestunde",
     "titleForm": "Wir beantworten alle Ihre Fragen",
     "validation": {
       "textRequired": "Feld ist erforderlich",

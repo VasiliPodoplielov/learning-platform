@@ -14,9 +14,9 @@ export const App = () => (
     <Header />
     <SiteInfo />
     <Teachers />
+    <FreeLesson />
     <AnswersList />
     <Reviews />
-    <FreeLesson />
     <Footer />
   </>
 );

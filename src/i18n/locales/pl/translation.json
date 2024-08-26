@@ -66,11 +66,7 @@
   },
   "freeLessons": {
     "titleFreeLessons": "Zacznij od bezpłatnej lekcji",
-    "tasksFreeLessons": {
-      "one": "Poznajesz nauczyciela",
-      "two": "Naucz się podstawowych pojęć",
-      "three": "Zadaj pytanie"
-    },
+    "tasksFreeLessons": "Aby przekonać się o naszych korzyściach, przyjdź na bezpłatną lekcję próbną",
     "titleForm": "Odpowiemy na wszystkie Twoje pytania",
     "validation": {
       "textRequired": "To pole jest wymagane",
