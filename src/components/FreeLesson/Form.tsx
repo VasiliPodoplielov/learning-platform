@@ -5,9 +5,8 @@ import { InputText } from 'primereact/inputtext';
 import { Controller } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 
-import { useFreeLesson } from './useFreeLesson';
-
 import styles from './styles.module.css';
+import { useFreeLesson } from './useFreeLesson';
 
 export const Form = () => {
   const { t } = useTranslation();
