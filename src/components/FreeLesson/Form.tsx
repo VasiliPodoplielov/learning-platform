@@ -5,6 +5,7 @@ import { InputText } from 'primereact/inputtext';
 import { Controller } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 
+import styles from './styles.module.css';
 import { useFreeLesson } from './useFreeLesson';
 
 export const Form = () => {
@@ -23,7 +24,7 @@ export const Form = () => {
       <div className="styles.form-demo">
         <div className="flex justify-content-center">
           <div className="card min-w-450 md:w-9 sm:w-full">
-            <h5 className="text-center">{t('freeLessons.titleForm')}</h5>
+            <h1 className="text-center">{t('freeLessons.titleForm')}</h1>
             <form onSubmit={handleSubmit(onSubmit)} className="p-fluid mt-5">
               <div className="field mt-5">
                 <span className="p-float-label">
@@ -44,7 +45,7 @@ export const Form = () => {
                 </span>
                 {errors.name && <small className="p-error">{errors.name.message}</small>}
               </div>
-              <div className="field">
+              <div className="field mt-5">
                 <span className="p-float-label">
                   <Controller
                     name="email"
@@ -63,7 +64,7 @@ export const Form = () => {
                 </span>
                 {errors.email && <small className="p-error">{errors.email.message}</small>}
               </div>
-              <div className="field">
+              <div className="field mt-5">
                 <span className="p-float-label">
                   <Controller
                     name="phone"
@@ -104,7 +105,11 @@ export const Form = () => {
                 </label>
                 {errors.accept && <small className="p-error">{errors.accept.message}</small>}
               </div>
-              <Button type="submit" label={t('freeLessons.labelButton')} className="mt-2" />
+              <Button
+                type="submit"
+                label={t('freeLessons.labelButton')}
+                className={`mt-2 uppercase ${styles.letterSpacing_2}`}
+              />
             </form>
           </div>
         </div>

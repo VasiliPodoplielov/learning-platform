@@ -65,12 +65,8 @@
     }
   },
   "freeLessons": {
-    "titleFreeLessons": "You will be able to during the trial lesson",
-    "tasksFreeLessons": {
-      "one": "Get to know the teacher",
-      "two": "Learn basic concepts",
-      "three": "Ask a question"
-    },
+    "titleFreeLessons": "Online registration for a trial lesson",
+    "tasksFreeLessons": "To make sure that we are the best, sign up for a free lesson with us",
     "titleForm": "We will answer all your questions",
     "validation": {
       "textRequired": "Field is required",

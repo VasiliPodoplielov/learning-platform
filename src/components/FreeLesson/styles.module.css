@@ -1,0 +1,9 @@
+.bgFreeLesson {
+  background:
+    linear-gradient(rgba(40, 16, 16, 0.7), rgba(0, 0, 0, 0.7)),
+    url('/src/assets/images/FreeLesson/bgFreeLesson.png') 0 0 / cover no-repeat;
+}
+
+.letterSpacing_2 {
+  letter-spacing: 0.2rem;
+}
