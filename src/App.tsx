@@ -15,8 +15,8 @@ export const App = () => (
     <SiteInfo />
     <Teachers />
     <FreeLesson />
-    <AnswersList />
-    <Reviews />
-    <Footer />
+    {/* <AnswersList /> */}
+    {/* <Reviews /> */}
+    {/* <Footer /> */}
   </>
 );

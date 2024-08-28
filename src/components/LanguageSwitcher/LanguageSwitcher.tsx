@@ -14,7 +14,7 @@ export const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="card flex justify-content-center">
+    <div className="card flex justify-content-center mr-3">
       <Dropdown
         value={i18n.language.toUpperCase()}
         options={COUNTRIES}
