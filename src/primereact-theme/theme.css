@@ -2,8 +2,16 @@
   background-color: var(--black);
 }
 
+.bg-blackTransparent60 {
+  background-color: var(--blackTransparent60);
+}
+
 .text-white {
   color: var(--white);
+}
+
+.letterSpacing_2 {
+  letter-spacing: 0.2rem;
 }
 
 :root {
@@ -58,6 +66,7 @@
   --highlight-text-color: rgba(255, 255, 255, 0.87);
   color-scheme: dark;
   --black: #000000;
+  --blackTransparent60: rgba(0, 0, 0, 0.6);
   --white: #ffffff;
 }
 
@@ -5708,7 +5717,7 @@
     margin-top: 0;
   }
   .p-breadcrumb {
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid #404f57;
     border-radius: 25px;
     padding: 1rem;
@@ -5740,7 +5749,7 @@
   }
   .p-contextmenu {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     color: rgb(255, 255, 255);
     border: 1px solid #404f57;
     box-shadow:
@@ -5755,7 +5764,7 @@
   }
   .p-contextmenu .p-submenu-list {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid #404f57;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -6044,7 +6053,7 @@
     color: rgb(255, 255, 255);
   }
   .p-megamenu .p-megamenu-panel {
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     color: rgb(255, 255, 255);
     border: 1px solid #404f57;
     box-shadow:
@@ -6162,7 +6171,7 @@
   }
   .p-megamenu.p-megamenu-mobile-active .p-megamenu-root-list {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid #404f57;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -6375,7 +6384,7 @@
   }
   .p-menu {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     color: rgb(255, 255, 255);
     border: 1px solid #404f57;
     border-radius: 25px;
@@ -6462,7 +6471,7 @@
     color: rgb(255, 255, 255);
   }
   .p-menu.p-menu-overlay {
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid #404f57;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -6638,7 +6647,7 @@
   }
   .p-menubar .p-submenu-list {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid #404f57;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -6674,7 +6683,7 @@
   }
   .p-menubar.p-menubar-mobile .p-menubar-root-list {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: none;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -6761,7 +6770,7 @@
       position: absolute;
       display: none;
       padding: 0.25rem 0;
-      background: #000000;
+      background: rgba(0, 0, 0, 0.6);
       border: none;
       box-shadow:
         0 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -7199,7 +7208,7 @@
   }
   .p-slidemenu {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     color: rgb(255, 255, 255);
     border: 1px solid #404f57;
     border-radius: 25px;
@@ -7290,7 +7299,7 @@
     color: rgb(255, 255, 255);
   }
   .p-slidemenu.p-slidemenu-overlay {
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid #404f57;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -7299,7 +7308,7 @@
   }
   .p-slidemenu .p-slidemenu-list {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid #404f57;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -7420,14 +7429,14 @@
   }
   .p-tieredmenu {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     color: rgb(255, 255, 255);
     border: 1px solid #404f57;
     border-radius: 25px;
     width: 12.5rem;
   }
   .p-tieredmenu.p-tieredmenu-overlay {
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid #404f57;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
@@ -7439,7 +7448,7 @@
   }
   .p-tieredmenu .p-submenu-list {
     padding: 0.25rem 0;
-    background: #000000;
+    background: rgba(0, 0, 0, 0.6);
     border: 1px solid #404f57;
     box-shadow:
       0 2px 4px -1px rgba(0, 0, 0, 0.2),
