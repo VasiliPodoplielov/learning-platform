@@ -1,13 +1,13 @@
 import './App.css';
 import './primereact-theme/theme.css';
 
+import { AnswersList } from './components/Answers';
+import { Footer } from './components/Footer';
 import { FreeLesson } from './components/FreeLesson';
 import { Header } from './components/Header';
+import { Reviews } from './components/Reviews';
 import { SiteInfo } from './components/SiteInfo';
 import { Teachers } from './components/Teachers';
-import { AnswersList } from './components/Answers';
-import { Reviews } from './components/Reviews';
-import { Footer } from './components/Footer';
 
 export const App = () => (
   <>
@@ -15,8 +15,8 @@ export const App = () => (
     <SiteInfo />
     <Teachers />
     <FreeLesson />
-    <AnswersList />
+    {/* <AnswersList />
     <Reviews />
-    <Footer />
+    <Footer /> */}
   </>
 );

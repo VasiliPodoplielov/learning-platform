@@ -32,7 +32,7 @@ export const Teachers = () => {
           />
         </div>
         <div
-          className={`flex flex-column p-2 justify-content-center align-content-center bg-bluegray-900 sm:border-round-bottom-3xl lg:border-round-right-3xl lg:border-noround-left ${styles.flexBasis65}`}
+          className={`h-20rem flex flex-column p-2 justify-content-center align-content-center bg-bluegray-900 sm:border-round-bottom-3xl lg:h-full lg:border-round-right-3xl lg:border-noround-left ${styles.flexBasis65}`}
         >
           <Carousel
             value={getTeachers(t)}

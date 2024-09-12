@@ -7,3 +7,6 @@
 .letterSpacing_02 {
   letter-spacing: 0.2rem;
 }
+.objectFitCover {
+  object-fit: cover;
+}
