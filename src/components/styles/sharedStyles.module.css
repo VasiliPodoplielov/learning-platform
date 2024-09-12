@@ -1,3 +1,9 @@
 .bgTransparent {
   background: transparent;
 }
+.bgNone {
+  background: none;
+}
+.letterSpacing_02 {
+  letter-spacing: 0.2rem;
+}

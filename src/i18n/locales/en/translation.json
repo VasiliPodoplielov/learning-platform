@@ -17,10 +17,14 @@
     "subTitleInfo": "We will help you improve and improve your language level. You can choose any course according to your wishes and needs. You can study with us both in a group and individually, with a teacher or independently (for this you can choose a course for self-study). You choose a schedule that is convenient for you and together with you we do everything necessary so that you notice the results already after the first class"
   },
   "teachersSection": {
-    "titleSection": "Our teachers",
+    "titleSection": "Teachers",
+    "subTitleInfo": "Here you will find your guide to the world of a foreign language",
     "teacherSofiia": {
       "language": "English",
       "introduction": "Sofiia Shtohryn is a young but experienced English teacher with 12 years of experience. She combines modern technologies and an individual approach, helping students to achieve high results in language learning in the shortest period of time."
+    },
+    "buttons": {
+      "signUpClass": "Let's go"
     },
     "teacherAnastasiia": {
       "language": "Polish",

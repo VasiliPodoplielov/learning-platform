@@ -17,10 +17,14 @@
     "subTitleInfo": "Wir helfen Ihnen, Ihr Sprachniveau zu verbessern und zu verbessern. Sie können jeden Kurs nach Ihren Wünschen und Bedürfnissen wählen. Sie können bei uns sowohl in der Gruppe als auch einzeln, mit einem Lehrer oder alleine lernen (hierfür können Sie einen Selbstlernkurs wählen). Sie wählen einen für Sie passenden Zeitplan und wir erledigen gemeinsam mit Ihnen alles, damit Sie nach der ersten Unterrichtsstunde das Ergebnis sehen können"
   },
   "teachersSection": {
-    "titleSection": "Unsere Lehrer",
+    "titleSection": "Lehrer",
+    "subTitleInfo": "Hier finden Sie Ihren Wegweiser in die Welt einer Fremdsprache",
     "teacherSofiia": {
       "language": "Englisch",
       "introduction": "Sofia Stogrin ist eine junge, aber erfahrene Englischlehrerin mit 12 Jahren Erfahrung. Es kombiniert moderne Technologien und einen individuellen Ansatz und hilft den Schülern, in kürzester Zeit hohe Ergebnisse beim Sprachenlernen zu erzielen."
+    },
+    "buttons": {
+      "signUpClass": "Lass uns gehen"
     },
     "teacherAnastasiia": {
       "language": "Polnische",
