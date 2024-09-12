@@ -1,17 +1,16 @@
+import { Button } from 'primereact/button';
 import { Carousel } from 'primereact/carousel';
 import { useTranslation } from 'react-i18next';
 
+import sharedStyles from '../styles/sharedStyles.module.css';
 import {
   CAROUSEL_SCROLL_ITEMS_COUNT,
   CAROUSEL_VISIBLE_ITEMS_COUNT,
   RESPONSIVE_OPTIONS,
 } from './constants';
 import { getTeachers } from './dataHelpers';
-import { TeacherCard } from './TeacherCard';
-import { Button } from 'primereact/button';
-
-import sharedStyles from '../styles/sharedStyles.module.css';
 import styles from './styles.module.css';
+import { TeacherCard } from './TeacherCard';
 
 export const Teachers = () => {
   const { t } = useTranslation();

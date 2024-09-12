@@ -1,5 +1,4 @@
 import { Card } from 'primereact/card';
-import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
 import { Teacher } from './types';
@@ -9,7 +8,6 @@ interface Props {
 }
 
 export const TeacherCard = ({ teacher }: Props) => {
-  const { t } = useTranslation();
   const { imageUrl, name, language, introduction } = teacher;
   const [isHovered, setIsHovered] = useState(false);
 
