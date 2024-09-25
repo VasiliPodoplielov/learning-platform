@@ -9,3 +9,6 @@
 .flexBasis65 {
   flex-basis: 65%;
 }
+.wrapperCard:hover p.introductionText {
+  opacity: 1 !important;
+}
