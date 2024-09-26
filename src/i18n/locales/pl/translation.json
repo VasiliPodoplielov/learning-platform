@@ -17,10 +17,14 @@
     "subTitleInfo": "Pomożemy Ci poprawić i doskonalić Twój poziom języka. Możesz wybrać dowolny kurs zgodnie ze swoimi życzeniami i potrzebami. Możesz uczyć się u nas zarówno w grupie, jak i indywidualnie, z lektorem lub samodzielnie (w tym celu możesz wybrać kurs do samodzielnej nauki). Wybierasz dogodny dla Ciebie grafik i wspólnie z Tobą robimy wszystko, abyś zauważyła efekty już po pierwszych zajęciach"
   },
   "teachersSection": {
-    "titleSection": "Nasi nauczyciele",
+    "titleSection": "Nauczyciele",
+    "subTitleInfo": "Tutaj znajdziesz swój przewodnik po świecie języka obcego",
     "teacherSofiia": {
       "language": "Angielski",
       "introduction": "Sofia Stogrin jest młodą, ale doświadczoną nauczycielką języka angielskiego z 12-letnim stażem. Łączy w sobie nowoczesne technologie i indywidualne podejście, pomagając uczniom osiągnąć wysokie wyniki w nauce języków w możliwie najkrótszym czasie."
+    },
+    "buttons": {
+      "signUpClass": "Lecimy"
     },
     "teacherAnastasiia": {
       "language": "Polski",

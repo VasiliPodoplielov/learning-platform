@@ -1,0 +1,14 @@
+.bgTeachersLesson {
+  background: -webkit-linear-gradient(270deg, rgb(187, 7, 77), rgb(27, 35, 35));
+  background: -moz-linear-gradient(270deg, rgb(187, 7, 77), rgb(27, 35, 35));
+  background: linear-gradient(270deg, rgb(187, 7, 77), rgb(27, 35, 35));
+}
+.flexBasis35 {
+  flex-basis: 35%;
+}
+.flexBasis65 {
+  flex-basis: 65%;
+}
+.wrapperCard:hover p.introductionText {
+  opacity: 1 !important;
+}

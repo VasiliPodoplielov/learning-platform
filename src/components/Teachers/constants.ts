@@ -1,19 +1,14 @@
 export const RESPONSIVE_OPTIONS = [
   {
-    breakpoint: '1400px',
-    numVisible: 3,
-    numScroll: 1,
-  },
-  {
-    breakpoint: '1199px',
+    breakpoint: '1500px',
     numVisible: 2,
     numScroll: 1,
   },
   {
-    breakpoint: '750px',
+    breakpoint: '650px',
     numVisible: 1,
     numScroll: 1,
   },
 ];
-export const CAROUSEL_VISIBLE_ITEMS_COUNT = 5;
+export const CAROUSEL_VISIBLE_ITEMS_COUNT = 3;
 export const CAROUSEL_SCROLL_ITEMS_COUNT = 5;
