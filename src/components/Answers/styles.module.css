@@ -1,0 +1,5 @@
+.bgAnswersList {
+  background: -webkit-linear-gradient(270deg, rgb(187, 7, 77), rgb(27, 35, 35));
+  background: -moz-linear-gradient(270deg, rgb(187, 7, 77), rgb(27, 35, 35));
+  background: linear-gradient(270deg, rgb(187, 7, 77), rgb(27, 35, 35));
+}
