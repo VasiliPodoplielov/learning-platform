@@ -10,7 +10,7 @@ export const Footer = () => {
   const { links, contacts, address } = getFooterItems(t);
 
   return (
-    <footer className="p-4 surface-900text-white">
+    <footer className="p-4 surface-900 text-white">
       <div className="flex flex-wrap justify-content-between">
         <div className="flex flex-column align-items-center lg:align-items-center col-12 lg:col-3 mb-4">
           <img alt="logo" src={logoImage} height="150" className="mb-2" />
