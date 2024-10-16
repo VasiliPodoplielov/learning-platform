@@ -25,6 +25,7 @@ export const getFooterItems = (getTranslation: (key: string) => string) => ({
     {
       label: '+38(067)043-45-56',
       icon: 'pi pi-phone',
+      className: 'white-space-nowrap',
     },
     {
       label: 'shool@gmail.com',
