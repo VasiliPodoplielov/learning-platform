@@ -2,7 +2,6 @@ import { Accordion, AccordionTab } from 'primereact/accordion';
 import { useTranslation } from 'react-i18next';
 
 import { getAnswers } from './dataHelpers';
-
 import styles from './styles.module.css';
 
 export const AnswersList = () => {
