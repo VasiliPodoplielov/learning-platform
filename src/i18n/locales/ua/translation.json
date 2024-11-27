@@ -6,6 +6,9 @@
       "teachers": "Викладачі",
       "contacts": "Контакти",
       "translations": "Переклад"
+    },
+    "dialog": {
+      "header": "header"
     }
   },
   "buttons": {

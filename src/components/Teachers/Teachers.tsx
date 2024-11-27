@@ -15,7 +15,10 @@ import { TeacherCard } from './TeacherCard';
 export const Teachers = () => {
   const { t } = useTranslation();
   return (
-    <div className={`p-0 h-screen ${styles.bgTeachersLesson} sm:p-5 md:p-8 overflow-hidden`}>
+    <div
+      id="teachers"
+      className={`p-0 h-screen ${styles.bgTeachersLesson} sm:p-5 md:p-8 overflow-hidden`}
+    >
       <div className="border-noround sm:border-round-3xl border-round-3xl  flex flex-column lg:flex-row h-full m-10 ">
         <div
           className={`border-noround  sm:border-round-top  flex flex-column p-2 surface-800 justify-content-center align-items-stretch lg:border-round-left-3xl lg:border-noround-right  ${styles.flexBasis35} bg-yellow-50`}
