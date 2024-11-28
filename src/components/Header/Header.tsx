@@ -1,13 +1,13 @@
 import { Button } from 'primereact/button';
-import { Menubar } from 'primereact/menubar';
 import { Dialog } from 'primereact/dialog';
+import { Menubar } from 'primereact/menubar';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import logoImage from 'src/assets/images/logo.png';
 
+import { Form } from '../FreeLesson/Form';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import { getMenuItems } from './dataHelpers';
-import { useState } from 'react';
-import { Form } from '../FreeLesson/Form';
 
 export const Header = () => {
   const { t } = useTranslation();
@@ -21,14 +21,7 @@ export const Header = () => {
         label={t('buttons.trialClass')}
         onClick={() => setVisible(true)}
       />
-      <Dialog
-        visible={visible}
-        className="w-full md:w-6"
-        onHide={() => {
-          if (!visible) return;
-          setVisible(false);
-        }}
-      >
+      <Dialog visible={visible} className="w-full md:w-6" onHide={() => setVisible(false)}>
         <Form />
       </Dialog>
       <LanguageSwitcher />
