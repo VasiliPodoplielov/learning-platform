@@ -13,7 +13,7 @@ export const Reviews = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="card bg-primary pt-5">
+    <div id="reviews" className="card bg-primary pt-5">
       <h2 className="text-6xl text-center">{t('reviewsSection.titleSection')}</h2>
       <Carousel
         value={getReviews(t)}

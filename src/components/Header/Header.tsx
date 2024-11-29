@@ -1,18 +1,29 @@
 import { Button } from 'primereact/button';
+import { Dialog } from 'primereact/dialog';
 import { Menubar } from 'primereact/menubar';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import logoImage from 'src/assets/images/logo.png';
 
+import { Form } from '../FreeLesson/Form';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import { getMenuItems } from './dataHelpers';
 
 export const Header = () => {
   const { t } = useTranslation();
+  const [visible, setVisible] = useState(false);
 
   const logo = <img alt="logo" src={logoImage} height="100" className="mr-1" />;
   const headerActions = (
     <div className="flex justify-content-end gap-2">
-      <Button className="text-xs xl:text-base" label={t('buttons.trialClass')} />
+      <Button
+        className="text-xs xl:text-base"
+        label={t('buttons.trialClass')}
+        onClick={() => setVisible(true)}
+      />
+      <Dialog visible={visible} className="w-full md:w-6" onHide={() => setVisible(false)}>
+        <Form />
+      </Dialog>
       <LanguageSwitcher />
     </div>
   );

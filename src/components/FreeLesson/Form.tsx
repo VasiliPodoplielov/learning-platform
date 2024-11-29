@@ -20,7 +20,7 @@ export const Form = () => {
   } = form;
 
   return (
-    <div className="w-full md:w-5 flex align-items-center justify-content-center py-5">
+    <div className="w-full flex align-items-center justify-content-center">
       <div className="styles.form-demo">
         <div className="flex justify-content-center">
           <div className="card min-w-450 md:w-9 sm:w-full">
