@@ -22,5 +22,6 @@ export const getMenuItems = (getTranslation: (key: string) => string) => [
   {
     label: getTranslation('header.menu.translations'),
     icon: 'pi pi-receipt',
+    url: '/learning-platform/translations',
   },
 ];
