@@ -6,16 +6,16 @@ import './index.css';
 import './i18n/i18n.ts';
 
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { App } from './App.tsx';
 import { Header } from './components/Header/Header.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <Router basename="/learning-platform">
+  <BrowserRouter basename="/learning-platform">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/translations" element={<Header />} />
     </Routes>
-  </Router>,
+  </BrowserRouter>,
 );
