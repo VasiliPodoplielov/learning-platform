@@ -31,7 +31,7 @@ export const Header = () => {
   return (
     <div className="header fixed z-5 w-screen">
       <Menubar
-        className="text-xs lg:text-sm  xl:text-lg border-none bg-blackTransparent60 border-noround border-transparent"
+        className="text-xs lg:text-sm xl:text-lg border-none bg-blackTransparent60 border-noround border-transparent"
         model={getMenuItems(t)}
         start={logo}
         end={headerActions}

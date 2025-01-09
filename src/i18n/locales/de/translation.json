@@ -93,5 +93,22 @@
       "tittleAddress": "Unsere Adresse:",
       "addressStreet": "Zalishchyki, Stepana Bandera Str. 2"
     }
+  },
+  "translate": {
+    "header": {
+      "title": "Professionelle Übersetzung",
+      "subTitle": "Schnell, hochwertig, erschwinglich – Übersetzung vom Englischen ins Ukrainische und umgekehrt!"
+    },
+    "button": {
+      "title": "Bestellen Sie eine Übersetzung"
+    },
+    "advantages": {
+      "titleOne": "Qualität",
+      "titleTwo": "Geschwindigkeit",
+      "titleThree": "Zugänglichkeit",
+      "subTitleOne": "Die Arbeit professioneller Übersetzer mit langjähriger Erfahrung.",
+      "subTitleTwo": "Wir arbeiten zeitnah, damit Sie es pünktlich schaffen können.",
+      "subTitleThree": "Unsere Preise sind immer wettbewerbsfähig."
+    }
   }
 }

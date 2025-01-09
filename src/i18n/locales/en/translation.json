@@ -93,5 +93,22 @@
       "tittleAddress": "Our address:",
       "addressStreet": "Zalishchyki, 2 Stepana Bandera St"
     }
+  },
+  "translate": {
+    "header": {
+      "title": "Professional translation",
+      "subTitle": "Fast, high-quality, affordable - translation from English to Ukrainian and vice versa!"
+    },
+    "button": {
+      "title": "Order a translation"
+    },
+    "advantages": {
+      "titleOne": "Quality",
+      "titleTwo": "Speed",
+      "titleThree": "Accessibility",
+      "subTitleOne": "The work of professional translators with many years of experience.",
+      "subTitleTwo": "We work promptly so that you can make it on time.",
+      "subTitleThree": "Our prices are always competitive."
+    }
   }
 }

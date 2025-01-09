@@ -93,5 +93,22 @@
       "tittleAddress": "Nasz adres:",
       "addressStreet": "Zaliszczyki ul.Stepana Bandery 2"
     }
+  },
+  "translate": {
+    "header": {
+      "title": "Profesjonalne tłumaczenie",
+      "subTitle": "Szybko, wysokiej jakości, niedrogo - tłumaczenie z angielskiego na ukraiński i odwrotnie!"
+    },
+    "button": {
+      "title": "Zamów tłumaczenie"
+    },
+    "advantages": {
+      "titleOne": "Jakość",
+      "titleTwo": "Prędkość",
+      "titleThree": "Dostępność",
+      "subTitleOne": "Praca profesjonalnych tłumaczy z wieloletnim doświadczeniem.",
+      "subTitleTwo": "Działamy ekspresowo, abyś mógł zdążyć na czas.",
+      "subTitleThree": "Nasze ceny są zawsze konkurencyjne."
+    }
   }
 }
