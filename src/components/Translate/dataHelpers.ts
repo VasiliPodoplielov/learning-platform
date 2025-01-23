@@ -1,6 +1,6 @@
-import accessibilityIcon from 'src/assets/images/Translate/accessibility_1.svg';
-import qualityIcon from 'src/assets/images/Translate/quality_1.svg';
-import timeIcon from 'src/assets/images/Translate/time_1.svg';
+import accessibilityIcon from 'src/assets/images/Translate/accessibility_1.png';
+import qualityIcon from 'src/assets/images/Translate/quality_1.png';
+import timeIcon from 'src/assets/images/Translate/time_1.png';
 
 import { Advantage } from './types.ts';
 
