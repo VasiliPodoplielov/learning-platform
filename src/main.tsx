@@ -9,13 +9,13 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { App } from './App.tsx';
-import { Header } from './components/Header/Header.tsx';
+import { TranslatePage } from './components/Translate/index.ts';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter basename="/learning-platform">
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/translations" element={<Header />} />
+      <Route path="/translations" element={<TranslatePage />} />
     </Routes>
   </BrowserRouter>,
 );
