@@ -1,10 +1,9 @@
 import React from 'react';
+
 import { MyAppRouter } from './components/routes/index.tsx';
 
-export const App = () => {
-  return (
-    <React.StrictMode>
-      <MyAppRouter />
-    </React.StrictMode>
-  );
-};
+export const App = () => (
+  <React.StrictMode>
+    <MyAppRouter />
+  </React.StrictMode>
+);

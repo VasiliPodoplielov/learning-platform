@@ -1,8 +1,8 @@
+import { AnswersList } from '../Answers';
+import { FreeLesson } from '../FreeLesson';
+import { Reviews } from '../Reviews';
 import { SiteInfo } from '../SiteInfo';
 import { Teachers } from '../Teachers';
-import { FreeLesson } from '../FreeLesson';
-import { AnswersList } from '../Answers';
-import { Reviews } from '../Reviews';
 
 export const PageHome = () => (
   <>
