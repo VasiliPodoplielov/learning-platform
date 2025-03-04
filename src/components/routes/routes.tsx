@@ -1,8 +1,9 @@
 import { Outlet } from 'react-router';
+
+import { Footer } from '../Footer/Footer.tsx';
 import { Header } from '../Header/Header.tsx';
 import { PageHome } from '../tamplate/PageHome.tsx';
 import { TranslatePage } from '../Translate/TranslatePage.tsx';
-import { Footer } from '../Footer/Footer.tsx';
 
 export const routes = [
   {

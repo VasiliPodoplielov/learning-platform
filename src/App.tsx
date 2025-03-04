@@ -1,9 +1,10 @@
 import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import { MyAppRouter } from './components/routes/index.tsx';
+import { routes } from './components/routes/routes.tsx';
 
 export const App = () => (
   <React.StrictMode>
-    <MyAppRouter />
+    <RouterProvider router={createBrowserRouter(routes)} />
   </React.StrictMode>
 );
