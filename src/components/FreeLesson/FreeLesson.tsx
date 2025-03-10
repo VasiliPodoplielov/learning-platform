@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-import { Form } from './Form';
+import { Form } from '../Form/Form';
 import styles from './styles.module.css';
 
 export const FreeLesson = () => {

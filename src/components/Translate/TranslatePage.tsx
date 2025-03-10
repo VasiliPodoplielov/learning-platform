@@ -3,7 +3,7 @@ import { Dialog } from 'primereact/dialog';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { Form } from '../FreeLesson/Form';
+import { Form } from '../Form/Form';
 import { getAdvantages } from './dataHelpers';
 import styles from './styles.module.css';
 import { TranslateCard } from './TranslateCard';

@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import logoImage from 'src/assets/images/logo.png';
 
-import { Form } from '../FreeLesson/Form';
+import { Form } from '../Form/Form';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import { getMenuItems } from './dataHelpers';
 

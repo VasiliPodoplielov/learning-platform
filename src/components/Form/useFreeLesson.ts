@@ -25,9 +25,27 @@ export const useFreeLesson = () => {
     resolver: yupResolver(validationSchema),
   });
 
-  const onSubmit = (data: IFormInput) => {
-    console.log(data);
-    form.reset();
+  const onSubmit = async (data: IFormInput) => {
+    try {
+      const formData = new FormData();
+      Object.keys(data).forEach((key) => {
+        formData.append(key, String(data[key as keyof IFormInput]));
+      });
+
+      const response = await fetch('sendmessage.php', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.ok) {
+        form.reset();
+        alert('Form sent successfully!');
+      } else {
+        alert('Error sending form');
+      }
+    } catch (error) {
+      alert('An error occurred');
+    }
   };
 
   return {
