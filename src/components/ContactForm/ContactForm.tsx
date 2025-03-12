@@ -6,12 +6,12 @@ import { Controller } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 
 import styles from '../FreeLesson/styles.module.css';
-import { useFreeLesson } from './useFreeLesson';
+import { useContactForm } from './useContactForm';
 
-export const Form = () => {
+export const ContactForm = () => {
   const { t } = useTranslation();
 
-  const { form, onSubmit } = useFreeLesson();
+  const { form, onSubmit } = useContactForm();
 
   const {
     control,

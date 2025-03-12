@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 import { DEFAULT_VALUES, TEXT_REQUIRED } from './constants';
 import { IFormInput } from './types';
 
-export const useFreeLesson = () => {
+export const useContactForm = () => {
   const { t } = useTranslation();
 
   const phoneRegExp = /^\+[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{3}$/;
@@ -27,24 +27,20 @@ export const useFreeLesson = () => {
 
   const onSubmit = async (data: IFormInput) => {
     try {
-      const formData = new FormData();
-      Object.keys(data).forEach((key) => {
-        formData.append(key, String(data[key as keyof IFormInput]));
-      });
-
-      const response = await fetch('sendmessage.php', {
+      const response = await fetch('http://localhost:3001/send-message', {
         method: 'POST',
-        body: formData,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
       });
 
       if (response.ok) {
         form.reset();
-        alert('Form sent successfully!');
+        alert('Форма успішно надіслана!');
       } else {
-        alert('Error sending form');
+        alert('Помилка відправки форми');
       }
     } catch (error) {
-      alert('An error occurred');
+      alert('Сталася помилка');
     }
   };
 
