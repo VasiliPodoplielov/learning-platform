@@ -1,9 +1,10 @@
 import { Button } from 'primereact/button';
 import { Carousel } from 'primereact/carousel';
-
+import { Dialog } from 'primereact/dialog';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import { ContactForm } from '../ContactForm/ContactForm';
 import sharedStyles from '../styles/sharedStyles.module.css';
 import {
   CAROUSEL_SCROLL_ITEMS_COUNT,
@@ -13,8 +14,6 @@ import {
 import { getTeachers } from './dataHelpers';
 import styles from './styles.module.css';
 import { TeacherCard } from './TeacherCard';
-import { Dialog } from 'primereact/dialog';
-import { ContactForm } from '../ContactForm/ContactForm';
 
 export const Teachers = () => {
   const { t } = useTranslation();

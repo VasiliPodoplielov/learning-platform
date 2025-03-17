@@ -17,7 +17,7 @@ export const useContactForm = () => {
       .required(t(TEXT_REQUIRED))
       .matches(phoneRegExp, 'Phone number is not valid'),
     email: Yup.string().required(t(TEXT_REQUIRED)).email(t('freeLessons.validation.textEmail')),
-    accept: Yup.boolean().required(t(TEXT_REQUIRED)),
+    accept: Yup.boolean().oneOf([true], t(TEXT_REQUIRED)),
   });
 
   const form = useForm<IFormInput>({
@@ -25,22 +25,31 @@ export const useContactForm = () => {
     resolver: yupResolver(validationSchema),
   });
 
+  const telegramBotToken = import.meta.env.VITE_TELEGRAM_BOT_TOKEN;
+  const telegramChatId = import.meta.env.VITE_TELEGRAM_CHAT_ID;
+  const telegramURL = `https://api.telegram.org/bot${telegramBotToken}/sendMessage`;
+
   const onSubmit = async (data: IFormInput) => {
     try {
-      const response = await fetch('http://localhost:3001/send-message', {
+      const text = `📩 *Нова заявка*\n\n👤 *Ім'я:* ${data.name}\n📧 *Email:* ${data.email}\n📞 *Телефон:* ${data.phone}\n✅ *Згода:* ${data.accept ? 'Так' : 'Ні'}`;
+
+      const response = await fetch(telegramURL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        body: JSON.stringify({
+          chat_id: telegramChatId,
+          text: text,
+          parse_mode: 'HTML',
+        }),
       });
 
-      if (response.ok) {
-        form.reset();
-        alert('Форма успішно надіслана!');
-      } else {
-        alert('Помилка відправки форми');
-      }
+      if (!response.ok) throw new Error('Failed to send');
+
+      alert('Message sent successfully to Telegram!');
+      form.reset();
     } catch (error) {
-      alert('Сталася помилка');
+      alert('Failed to send message.');
+      console.error('Telegram Error:', error);
     }
   };
 

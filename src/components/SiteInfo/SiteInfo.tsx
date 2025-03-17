@@ -1,13 +1,12 @@
 import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
 import { Dialog } from 'primereact/dialog';
-
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import { ContactForm } from '../ContactForm/ContactForm';
 import sharedStyles from '../styles/sharedStyles.module.css';
 import styles from './styles.module.css';
-import { ContactForm } from '../ContactForm/ContactForm';
 
 export const SiteInfo = () => {
   const { t } = useTranslation();
