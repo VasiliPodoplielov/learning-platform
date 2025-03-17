@@ -17,7 +17,7 @@ export const useContactForm = () => {
       .required(t(TEXT_REQUIRED))
       .matches(phoneRegExp, 'Phone number is not valid'),
     email: Yup.string().required(t(TEXT_REQUIRED)).email(t('freeLessons.validation.textEmail')),
-    accept: Yup.boolean().oneOf([true], t(TEXT_REQUIRED)),
+    accept: Yup.boolean().required(t(TEXT_REQUIRED)),
   });
 
   const form = useForm<IFormInput>({
