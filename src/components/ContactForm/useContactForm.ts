@@ -1,16 +1,23 @@
 import { yupResolver } from '@hookform/resolvers/yup';
-import { Resolver, useForm } from 'react-hook-form';
+import { MutableRefObject, useRef } from 'react';
+import { Resolver, UseFormReturn, useForm } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import * as Yup from 'yup';
 
 import { DEFAULT_VALUES, telegramChatId, telegramURL } from './constants';
-import { IFormInput, Toast } from './types';
 import { getApplicationMessage } from './dataHelpers';
-import { useRef } from 'react';
+import { IFormInput } from './types';
+import { Toast } from 'primereact/toast';
 
-export const useContactForm = () => {
+interface UseContactForm {
+  form: UseFormReturn<IFormInput>;
+  onSubmit: (data: IFormInput) => Promise<void>;
+  toastRef: MutableRefObject<Toast | null>;
+}
+
+export const useContactForm = (): UseContactForm => {
   const { t } = useTranslation();
-  const toast = useRef<Toast>(null);
+  const toastRef = useRef<Toast | null>(null);
 
   const phoneRegExp = /^\+[0-9]{2}-[0-9]{3}-[0-9]{3}-[0-9]{3}$/;
 
@@ -25,7 +32,7 @@ export const useContactForm = () => {
     accept: Yup.boolean().oneOf([true], t('freeLessons.validation.textRequired')),
   });
 
-  const form = useForm<IFormInput>({
+  const form: UseFormReturn<IFormInput> = useForm<IFormInput>({
     defaultValues: DEFAULT_VALUES,
     resolver: yupResolver(validationSchema) as unknown as Resolver<IFormInput>,
   });
@@ -44,7 +51,7 @@ export const useContactForm = () => {
 
       if (!response.ok) throw new Error('Failed to send');
 
-      toast.current?.show({
+      toastRef.current?.show({
         severity: 'success',
         summary: 'Success',
         detail: 'Message sent successfully!',
@@ -52,7 +59,7 @@ export const useContactForm = () => {
       });
       form.reset();
     } catch (error) {
-      toast.current?.show({
+      toastRef.current?.show({
         severity: 'error',
         summary: 'Error',
         detail: 'Failed to send message.',
@@ -62,5 +69,5 @@ export const useContactForm = () => {
     }
   };
 
-  return { form, onSubmit, toast };
+  return { form, onSubmit, toastRef };
 };
