@@ -1,12 +1,16 @@
 import { Button } from 'primereact/button';
 import { Card } from 'primereact/card';
+import { Dialog } from 'primereact/dialog';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import { ContactForm } from '../ContactForm/ContactForm';
 import sharedStyles from '../styles/sharedStyles.module.css';
 import styles from './styles.module.css';
 
 export const SiteInfo = () => {
   const { t } = useTranslation();
+  const [visible, setVisible] = useState(false);
 
   const header = (
     <div>
@@ -23,7 +27,14 @@ export const SiteInfo = () => {
         className={`pt-8 pb-7 text-center border-noround shadow-none ${sharedStyles.bgTransparent}`}
         header={header}
       >
-        <Button className="mt-2 uppercase letterSpacing_2" label={t('buttons.signUpClass')} />
+        <Button
+          className="mt-2 uppercase letterSpacing_2"
+          label={t('buttons.signUpClass')}
+          onClick={() => setVisible(true)}
+        />
+        <Dialog visible={visible} className="w-full md:w-6" onHide={() => setVisible(false)}>
+          <ContactForm />
+        </Dialog>
       </Card>
     </div>
   );

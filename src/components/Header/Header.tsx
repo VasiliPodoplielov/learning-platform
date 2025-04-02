@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import logoImage from 'src/assets/images/logo.png';
 
-import { Form } from '../FreeLesson/Form';
+import { ContactForm } from '../ContactForm/ContactForm';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import { getMenuItems } from './dataHelpers';
 
@@ -22,7 +22,7 @@ export const Header = () => {
         onClick={() => setVisible(true)}
       />
       <Dialog visible={visible} className="w-full md:w-6" onHide={() => setVisible(false)}>
-        <Form />
+        <ContactForm />
       </Dialog>
       <LanguageSwitcher />
     </div>

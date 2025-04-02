@@ -2,16 +2,17 @@ import { Button } from 'primereact/button';
 import { Checkbox } from 'primereact/checkbox';
 import { InputMask } from 'primereact/inputmask';
 import { InputText } from 'primereact/inputtext';
+import { Toast } from 'primereact/toast';
 import { Controller } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 
-import styles from './styles.module.css';
-import { useFreeLesson } from './useFreeLesson';
+import styles from '../FreeLesson/styles.module.css';
+import { useContactForm } from './useContactForm';
 
-export const Form = () => {
+export const ContactForm = () => {
   const { t } = useTranslation();
 
-  const { form, onSubmit } = useFreeLesson();
+  const { form, onSubmit, toastRef } = useContactForm();
 
   const {
     control,
@@ -25,6 +26,7 @@ export const Form = () => {
         <div className="flex justify-content-center">
           <div className="card min-w-450 md:w-9 sm:w-full">
             <h1 className="text-center">{t('freeLessons.titleForm')}</h1>
+            <Toast ref={toastRef} position="top-center" />
             <form onSubmit={handleSubmit(onSubmit)} className="p-fluid mt-5">
               <div className="field mt-5">
                 <span className="p-float-label">

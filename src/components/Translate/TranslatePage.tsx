@@ -3,7 +3,7 @@ import { Dialog } from 'primereact/dialog';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-import { Form } from '../FreeLesson/Form';
+import { ContactForm } from '../ContactForm/ContactForm';
 import { getAdvantages } from './dataHelpers';
 import styles from './styles.module.css';
 import { TranslateCard } from './TranslateCard';
@@ -24,7 +24,7 @@ export const TranslatePage = () => {
           onClick={() => setVisible(true)}
         />
         <Dialog visible={visible} className="w-full md:w-6" onHide={() => setVisible(false)}>
-          <Form />
+          <ContactForm />
         </Dialog>
       </div>
       <div className="flex justify-around flex-wrap pt-3">

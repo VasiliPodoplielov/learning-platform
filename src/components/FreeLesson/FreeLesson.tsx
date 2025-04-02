@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-import { Form } from './Form';
+import { ContactForm } from '../ContactForm/ContactForm';
 import styles from './styles.module.css';
 
 export const FreeLesson = () => {
@@ -15,7 +15,7 @@ export const FreeLesson = () => {
           <h2 className="text-6xl text-center">{t('freeLessons.titleFreeLessons')}</h2>
           <p className="text-3xl text-center">{t('freeLessons.tasksFreeLessons')}</p>
         </div>
-        <Form />
+        <ContactForm />
       </div>
     </div>
   );

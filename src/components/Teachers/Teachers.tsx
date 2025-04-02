@@ -1,7 +1,10 @@
 import { Button } from 'primereact/button';
 import { Carousel } from 'primereact/carousel';
+import { Dialog } from 'primereact/dialog';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import { ContactForm } from '../ContactForm/ContactForm';
 import sharedStyles from '../styles/sharedStyles.module.css';
 import {
   CAROUSEL_SCROLL_ITEMS_COUNT,
@@ -14,6 +17,7 @@ import { TeacherCard } from './TeacherCard';
 
 export const Teachers = () => {
   const { t } = useTranslation();
+  const [visible, setVisible] = useState(false);
   return (
     <div
       id="teachers"
@@ -32,7 +36,11 @@ export const Teachers = () => {
           <Button
             className={`mt-2 uppercase ${sharedStyles.letterSpacing_02}`}
             label={t('teachersSection.buttons.signUpClass')}
+            onClick={() => setVisible(true)}
           />
+          <Dialog visible={visible} className="w-full md:w-6" onHide={() => setVisible(false)}>
+            <ContactForm />
+          </Dialog>
         </div>
         <div
           className={`h-20rem flex flex-column p-2 justify-content-center align-content-center bg-bluegray-900 sm:border-round-bottom-3xl lg:h-full lg:border-round-right-3xl lg:border-noround-left ${styles.flexBasis65}`}
