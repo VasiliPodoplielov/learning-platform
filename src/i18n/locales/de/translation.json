@@ -56,14 +56,54 @@
   },
   "reviewsSection": {
     "titleSection": "Rezensionen",
-    "respondLinkText": "Link zum Feedback",
-    "reviewLara": {
-      "respond": "Guten Tag, ich empfehle auf jeden Fall die Online-Schule „STUDYOUA“. Qualifizierte Fachkräfte, eine hervorragende Plattform, mir gefällt die Methodik und Zugänglichkeit des Unterrichts sehr gut. Das Kind lernt seit dem dritten Jahr, gute Ergebnisse und vor allem bereitet es sich mit vor Interesse und freut sich auf die nächste Unterrichtsstunde mit Lehrerin Anna.",
-      "name": "Lara"
+    "respondLinkText": "Feedback-Schub",
+    "reviewBrazhko": {
+      "respond": "Sofia ist eine sehr gute Lehrerin. Der Unterricht ist interessant und macht Spaß. Wir haben immer viel Sprechpraxis, was mir sehr gefällt, denn ich wollte unbedingt meine Angst vor dem Sprechen überwinden und Sofia hat mir dabei sehr geholfen. Auch die Grammatik wird sehr verständlich und kreativ erklärt, anschaulich, ohne Wasser und sofort im Gespräch verankert.",
+      "name": "Brazhko"
     },
-    "reviewJoseph": {
-      "respond": "Guten Tag! Mein Sohn ist seit fast einem Jahr in der Schule. Wir sind mit der Qualität der Schulung und des Service im Allgemeinen sehr zufrieden. Alles ist pünktlich, qualitativ hochwertig und für uns immer so bequem. Wir danken der Schule für unser Wissen.",
-      "name": "Joseph"
+    "reviewOlga": {
+      "respond": "Eine ausgezeichnete Nachhilfelehrerin, meine Tochter ist zufrieden und erledigt problemlos alle Aufgaben. Ich bin sehr dankbar für diesen Ansatz und dieses Engagement!",
+      "name": "Olga"
+    },
+    "reviewSofiya": {
+      "respond": "Super cooler Lehrer 🥹 Ergebnisse bereits nach 3 Unterrichtsstunden, ich habe angefangen, vergessenes Material wiederherzustellen und Vokabeln zu lernen. Ich freue mich!",
+      "name": "Sofiya"
+    },
+    "reviewIryna1": {
+      "respond": "Ein wunderbarer Lehrer mit umfangreicher Berufserfahrung. Ein individueller Ansatz und eine freundliche Atmosphäre sind garantiert!",
+      "name": "Iryna"
+    },
+    "reviewAnastasiya": {
+      "respond": "Sofia hat viele verschiedene Materialien für verschiedene Englischniveaus. Immer sehr interessant und nützlich. Man merkt gar nicht, wie die Zeit vergeht. Im Unterricht reden wir viel, erweitern unseren Wortschatz und erledigen Aufgaben. Sofia ist immer bereit zu helfen und zu erklären, wenn etwas unklar ist. Super Lehrer :)))",
+      "name": "Anastasiya"
+    },
+    "reviewOksana": {
+      "respond": "Sofia ist eine sehr talentierte Lehrerin, sie erklärt alles sehr gut, sie geht verständnisvoll auf jeden zu, dank ihr fangen wir an, etwas auf Englisch zu verstehen, danke, dass du dich gefunden hast️.",
+      "name": "Oksana"
+    },
+    "reviewRenata": {
+      "respond": "Eine wunderbare Tutorin, die leicht erklärt, eine Spezialistin auf ihrem Gebiet ist, verschiedene Technologien in ihrem Fachgebiet einsetzt, den Schülern ständig hilft und mit ihnen zusammenarbeitet, die beste Lehrerin",
+      "name": "Renata"
+    },
+    "reviewIryna2": {
+      "respond": "Sofia ist eine wunderbare Nachhilfelehrerin. Mit ihr habe ich endlich Grammatik und Zeitformen verstanden. Wir arbeiten seit sechs Monaten. Der Unterricht ist immer interessant, das Material ist vorhanden. Höflich, pünktlich und professionell in ihrem Fachgebiet. Ich empfehle!",
+      "name": "Iryna"
+    },
+    "reviewJulia": {
+      "respond": "Der Unterricht ist sehr interessant und produktiv. Vertrauen und Verständnis zwischen Lehrer und Schüler. Es ist sehr bequem, mit dem Programm zu arbeiten, es gibt mehr Zeit, den Stoff zu studieren. Man spürt eine individuelle Herangehensweise und ein Verständnis für die Bedürfnisse des Schülers. Ich bin 100 % zufrieden.",
+      "name": "Julia"
+    },
+    "reviewSasha": {
+      "respond": "Ein unglaublicher Lehrer, unglaubliche Energie im Unterricht und hervorragende Präsentation des Stoffes.",
+      "name": "Sasha"
+    },
+    "reviewAndrii": {
+      "respond": "Als exzellenter Englischlehrer vergeht die ganze Lektion wie in einem Atemzug, man lernt jedes Mal viele neue Informationen und festigt schnell den gesamten Stoff, den man gelernt hat!",
+      "name": "Andrii"
+    },
+    "reviewSofia": {
+      "respond": "Einfach ein unglaublicher Lehrer! Ja, wie Sofia erklärt – niemand erklärt es. Ich habe sie als Nachhilfelehrerin zur Vorbereitung auf die staatlichen Abschlussprüfungen gefunden. Aber ich bin sicher, dass ich unseren Unterricht auch in Zukunft fortsetzen werde. Danke, Sofia, für das Wissen, das du mir so geschickt vermittelt hast!) Einfach eine unglaubliche Lehrerin! Ja, wie Sofia erklärt – niemand erklärt es. Ich habe sie als Nachhilfelehrerin zur Vorbereitung auf die staatlichen Abschlussprüfungen gefunden. Aber ich bin sicher, dass ich unseren Unterricht auch in Zukunft fortsetzen werde. Danke, Sofia, für das Wissen, das du mir so geschickt vermittelt hast!)",
+      "name": "Sofia"
     }
   },
   "freeLessons": {

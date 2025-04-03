@@ -55,15 +55,55 @@
     }
   },
   "reviewsSection": {
-    "titleSection": "Opinie",
+    "titleSection": "Opinia",
     "respondLinkText": "Link do opinii",
-    "reviewLara": {
-      "respond": "Dzień dobry, zdecydowanie polecam szkołę internetową „STUDYOUA”. Wykwalifikowani specjaliści, doskonała platforma, bardzo podoba mi się metodologia i przystępność nauczania. Dziecko uczy się trzeci rok, dobre wyniki, a co najważniejsze, przygotowuje się z zainteresowany i nie może się doczekać kolejnej lekcji z nauczycielką Anną.",
-      "name": "Lara"
+    "reviewBrazhko": {
+      "respond": "Sofia jest bardzo dobrą nauczycielką. Lekcje są ciekawe i przyjemne. Zawsze dużo ćwiczymy mówienie, co bardzo mi się podoba, ponieważ chciałem przezwyciężyć swój strach przed mówieniem, a Sofia bardzo mi w tym pomogła. Gramatyka jest również wyjaśniana w sposób bardzo przystępny i kreatywny, jasny, bez wody i od razu utrwalana w konwersacji.",
+      "name": "Brazhko"
     },
-    "reviewJoseph": {
-      "respond": "Dobry dzień! Mój syn chodzi do szkoły już prawie rok. Jesteśmy bardzo zadowoleni z jakości szkoleń i ogólnie obsługi. Wszystko na czas, wysokiej jakości i zawsze tak samo dla nas wygodne. Dziękujemy szkole za naszą wiedzę.",
-      "name": "Joseph"
+    "reviewOlga": {
+      "respond": "Świetny korepetytor, moja córka jest zadowolona i bez problemu radzi sobie ze wszystkimi zadaniami. Dziękuję bardzo za takie podejście i zaangażowanie!",
+      "name": "Olga"
+    },
+    "reviewSofiya": {
+      "respond": "Super nauczyciel 🥹 Efekty po 3 zajęciach, zaczęłam odzyskiwać zapomniany materiał i uczyć się słownictwa. Jestem zachwycony!",
+      "name": "Sofiya"
+    },
+    "reviewIryna1": {
+      "respond": "Wspaniały nauczyciel, z dużym doświadczeniem zawodowym. Gwarantujemy indywidualne podejście i przyjazną atmosferę!",
+      "name": "Iryna"
+    },
+    "reviewAnastasiya": {
+      "respond": "Sofia dysponuje wieloma materiałami dostosowanymi do różnych poziomów języka angielskiego. Zawsze bardzo interesujące i przydatne. Nawet nie zauważasz jak szybko mija czas. Na lekcjach dużo rozmawiamy, poszerzamy słownictwo i wykonujemy zadania. Sofia zawsze chętnie pomaga i wyjaśnia, jeśli coś jest niejasne. Super nauczyciel :)))",
+      "name": "Anastasiya"
+    },
+    "reviewOksana": {
+      "respond": "Sofia jest bardzo zdolną nauczycielką, wszystko świetnie tłumaczy, do każdego podchodzi ze zrozumieniem, dzięki niej zaczynamy trochę rozumieć po angielsku, dziękuję, że Cię znalazłam ️.",
+      "name": "Oksana"
+    },
+    "reviewRenata": {
+      "respond": "Cudowna korepetytorka, tłumaczy w sposób przystępny, jest ekspertem w swojej dziedzinie, wykorzystuje różne technologie w swojej specjalności, stale pomaga i współpracuje ze studentami, najlepszy nauczyciel",
+      "name": "Renata"
+    },
+    "reviewIryna2": {
+      "respond": "Sofia jest wspaniałą nauczycielką. Dzięki niej w końcu zrozumiałem gramatykę i czasy. Uczymy się przez pół roku. Lekcje są zawsze interesujące, a materiał przedstawiany jest w przystępny sposób. Uprzejma, punktualna i profesjonalna w swojej dziedzinie. Polecam!",
+      "name": "Iryna"
+    },
+    "reviewJulia": {
+      "respond": "Lekcje są bardzo ciekawe i produktywne. Między nauczycielem a uczniem panuje zaufanie i zrozumienie. Praca z programem jest bardzo wygodna, co daje więcej czasu na przyswojenie materiału. Cechuje nas indywidualne podejście i zrozumienie potrzeb ucznia. Jestem w 100% zadowolony.",
+      "name": "Julia"
+    },
+    "reviewSasha": {
+      "respond": "Niesamowity nauczyciel, niesamowita energia na lekcjach i doskonała prezentacja materiału.",
+      "name": "Sasha"
+    },
+    "reviewAndrii": {
+      "respond": "Cudowny nauczyciel języka angielskiego, cała lekcja mija na jednym oddechu, za każdym razem uczysz się wielu nowych informacji i szybko utrwalasz cały przerobiony materiał!",
+      "name": "Andrii"
+    },
+    "reviewSofia": {
+      "respond": "Po prostu niesamowity nauczyciel! Tak, jak wyjaśnia Sofia - nikt nie wyjaśnia. Znalazłam ją jako korepetytorkę przygotowującą do państwowych egzaminów wewnętrznych. Ale jestem pewien, że w przyszłości będę kontynuował nasze zajęcia. Dziękuję Ci, Sofio, za wiedzę, którą tak umiejętnie wpoiłaś mi do głowy!) Po prostu niesamowity nauczyciel! Tak, jak wyjaśnia Sofia - nikt nie wyjaśnia. Znalazłam ją jako korepetytorkę przygotowującą do państwowych egzaminów wewnętrznych. Ale jestem pewien, że w przyszłości będę kontynuował nasze zajęcia. Dziękuję Ci, Sofio, za wiedzę, którą tak umiejętnie zaszczepiłaś w mojej głowie!)",
+      "name": "Sofia"
     }
   },
   "freeLessons": {

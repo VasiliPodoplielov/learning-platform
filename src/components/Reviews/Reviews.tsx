@@ -13,8 +13,9 @@ export const Reviews = () => {
   const { t } = useTranslation();
 
   return (
-    <div id="reviews" className="card bg-primary pt-5">
+    <div id="reviews" className="h-screen card bg-black pt-8">
       <h2 className="text-6xl text-center">{t('reviewsSection.titleSection')}</h2>
+      <h3 className="text-1xl text-center">{t('reviewsSection.subTitleSection')}</h3>
       <Carousel
         value={getReviews(t)}
         numVisible={REVIEWS_VISIBLE_ITEMS_COUNT}

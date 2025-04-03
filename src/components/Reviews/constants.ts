@@ -1,12 +1,12 @@
 export const RESPONSIVE_OPTIONS = [
   {
     breakpoint: '2200px',
-    numVisible: 2,
+    numVisible: 3,
     numScroll: 1,
   },
   {
     breakpoint: '1800px',
-    numVisible: 2,
+    numVisible: 3,
     numScroll: 1,
   },
   {
