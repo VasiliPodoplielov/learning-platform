@@ -1,13 +1,13 @@
 import { yupResolver } from '@hookform/resolvers/yup';
+import { Toast } from 'primereact/toast';
 import { MutableRefObject, useRef } from 'react';
-import { Resolver, UseFormReturn, useForm } from 'react-hook-form';
+import { Resolver, useForm,UseFormReturn } from 'react-hook-form';
 import { useTranslation } from 'react-i18next';
 import * as Yup from 'yup';
 
 import { DEFAULT_VALUES, telegramChatId, telegramURL } from './constants';
 import { getApplicationMessage } from './dataHelpers';
 import { IFormInput } from './types';
-import { Toast } from 'primereact/toast';
 
 interface UseContactForm {
   form: UseFormReturn<IFormInput>;
