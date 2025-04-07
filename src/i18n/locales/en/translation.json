@@ -56,14 +56,55 @@
   },
   "reviewsSection": {
     "titleSection": "Reviews",
-    "respondLinkText": "Link to feedback",
-    "reviewLara": {
-      "respond": "Good afternoon, I definitely recommend the online school „STUDYOUA“. Qualified specialists, an excellent platform, I really like the methodology and availability of teaching. The child has been studying for the third year, good results, and most importantly, prepares with interest and is looking forward to the next lesson with teacher Anna.",
-      "name": "Lara"
+    "subTitleSection": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, repellendus.",
+    "respondLinkText": "Link to review",
+    "reviewBrazhko": {
+      "respond": "Sofia is a very good teacher. The lessons are interesting and fun. We always have a lot of conversational practice, which I really like, because I wanted to overcome my fear of speaking, and Sofia helped me a lot with this. Grammar is also explained very accessible and creatively, clearly, without water and we immediately consolidate it in the conversation.",
+      "name": "Brazhko"
     },
-    "reviewJoseph": {
-      "respond": "Good day! My son has been in school for almost a year. We are very satisfied with the quality of training and service in general. Everything is on time, of high quality and always as convenient for us. We thank the school for our knowledge.",
-      "name": "Joseph"
+    "reviewOlga": {
+      "respond": "Excellent tutor, my daughter is satisfied and easily completes all tasks. Very grateful for this approach and dedication to the cause!",
+      "name": "Olga"
+    },
+    "reviewSofiya": {
+      "respond": "Super cool teacher 🥹 Results after 3 classes, I started to recover forgotten material and study vocabulary. I'm delighted!",
+      "name": "Sofiya"
+    },
+    "reviewIryna1": {
+      "respond": "A wonderful teacher with extensive work experience. Individual approach and friendly atmosphere guaranteed!",
+      "name": "Iryna"
+    },
+    "reviewAnastasiya": {
+      "respond": "Sofia has a lot of different material for different levels of English. Always very interesting and useful. You don't even notice how time flies. In the lessons we talk a lot and replenish our vocabulary, do tasks. Sofia is always willing to help and explain if something is unclear. Super teacher :)))",
+      "name": "Anastasiya"
+    },
+    "reviewOksana": {
+      "respond": "Sofia is a very talented teacher, she explains everything very well, she approaches everyone with understanding, thanks to her we are starting to understand something in English a little, thank you for finding you ️.",
+      "name": "Oksana"
+    },
+    "reviewRenata": {
+      "respond": "A wonderful tutor, explains things in an accessible way, is an expert in her field, uses various technologies in her specialty, constantly helps and collaborates with students, the best teacher",
+      "name": "Renata"
+    },
+    "reviewIryna2": {
+      "respond": "Sofia is a wonderful tutor. With her, I finally understood grammar and tenses. We have been studying for half a year. The lessons are always interesting, the material is presented in an accessible way. Polite, punctual and a professional in her field. I recommend it!",
+      "name": "Iryna"
+    },
+    "reviewJulia": {
+      "respond": "The lessons are very interesting and productive. There is trust and understanding between the teacher and the student. It is very convenient to work in the program, it gives more time to study the material. You can feel the individual approach and understanding of the student's needs. I am 100% satisfied.",
+      "name": "Julia"
+    },
+    "reviewSasha": {
+      "respond": "Incredible teacher, incredible energy in the lessons, and excellent presentation of the material.",
+      "name": "Sasha"
+    },
+    "reviewAndrii": {
+      "respond": "A wonderful English teacher, the whole lesson goes by in one breath, every time you learn a lot of new information and quickly consolidate all the material covered!",
+      "name": "Andrii"
+    },
+    "reviewSofia": {
+      "respond": "Simply an incredible teacher! As Sofia explains - no one explains. I found her as a tutor to prepare for the ZNO. But I am sure that in the future I will continue our classes. Thank you Sofia for the knowledge that you so skillfully put into my Head!) Simply an incredible teacher! As Sofia explains - no one explains. I found her as a tutor to prepare for the ZNO. But I am sure that in the future I will continue our classes. Thank you Sofia for the knowledge that you so skillfully put into my Head!)",
+      "name": "Sofia"
     }
   },
   "freeLessons": {
